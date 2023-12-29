@@ -1,3 +1,10 @@
 {
-  "cSpell.words": ["architecting", "astro", "astrojs", "tsconfigs"]
+  "cSpell.words": ["architecting", "astro", "astrojs", "gatekept", "tsconfigs"],
+  "grammarly.selectors": [
+    {
+      "language": "markdown",
+      "scheme": "file",
+      "pattern": "src/content/docs/blog/example.md"
+    }
+  ]
 }
