@@ -30,7 +30,7 @@ In Reid Hoffman's words:
 Hoffman's wisdom about perfectionism has always felt like it wants me to ignore my emotions.
 Accepting it without reasoning is problematic because it feels like accepting any other positive mindset grift -- like the only thing between you and a billion dollars is waking up at 4 am or an ice bath daily.
 Overlooking your embarrassment might get you to the goal, but ignoring it fails to learn anything from it.
-Without learning from it, you'll constantly battle anxiety and you may be unable to reassure yourself that the goal is worthwhile.
+Without learning from it, you'll constantly battle anxiety, and you may be unable to reassure yourself that the goal is worthwhile.
 
 ## Goals
 
@@ -100,7 +100,7 @@ Before shipping, it was an elaborate idea and some exploration.
 ### Shipping isn't as embarrassing as most people expect.
 
 I used to speak at conferences early in my career, and since, that has tapered off.
-I could say that changing jobs, COVID-19, moving, or getting married contributed, but that's not true.
+I could claim that changing jobs, COVID-19, moving, or getting married contributed, but that's not true.
 I stopped because my professional experience developed, and the standard I set for "what is conference worthy" went up.
 I have gatekept myself from speaking further in an unfair way.
 A byproduct of this post is renewing my commitment to speaking and writing in public.
@@ -110,34 +110,31 @@ It's often convenient along the way to become your own greatest critic.
 Yet, self-doubt isn't a form of humility; it's a form of anxiety.
 Remember, when you're shipping a product, the default is that nobody notices or cares.
 At worst, an ineffective launch might yield mean comments from people you've never met.
-Frame your anxiety and remember that it isn't the same as public shaming.
-People and companies from whom your audience expects more still create misfit products.
+Ground your anxiety and remember that this isn't the same as public shaming.
+People and companies from whom your audience expects more are still creating bad products.
 It's alright to land among them temporarily if you intend to persevere.
 
 ### Being vulnerable is good.
 
-Your taste and expertise weren't devised in a vacuum or granted from the ether.
+Your taste and expertise weren't formed in a vacuum or granted from the ether.
 You assembled them from the learnings and experiences of others.
-Insulating your projects and self-criticizing them may yield something inherently "yours."
-But, your ability will always limit your projects.
+Insulating your projects and self-criticizing them may yield something inherently "yours," but your own ability will always limit your projects.
 Being vulnerable and shipping means questioning and validating your ability with your audience.
-An engineer develops their intuition and expertise through their career through learning.
+
+An engineer develops their intuition and expertise in their career through learning.
 Early in your career, there is no foundation, so you have to learn everything, but later, you can use experience to survive.
-But experience is itself an assumption.
-It's an assumption that the way you have learned something is complete and correct.
+But experience is an assumption that the way you have learned something is complete and correct.
 It's an assumption that your anecdotes and rules are a comprehensive view.
-Allowing yourself to be vulnerable is sound engineering.
-You open yourself to challenge, prove, or debunk your assumptions.
-Doing this will enable you to grow your understanding.
+Allowing yourself to be vulnerable is sound engineering because you open yourself to challenge, prove, or debunk your assumptions.
+Doing this will enable you to grow your understanding and continue learning with more expertise.
+It allows you to challenge your early beliefs about what makes a good product, how to build it, and what is suitable.
 Not doing this leads to stagnating and relying on your early career assumptions being enough to get by.
-Growing your assumptions allows you to continue learning with more expertise.
-It will enable you to challenge your early beliefs about what makes a good product, how to build it, and what is suitable.
 
 ### Embrace discomfort.
 
-Being uncomfortable is sometimes beneficial.
-We're used to it signaling that it's time to do something new or change.
-But discomfort can also be a symptom of growth at work. It suggests you're challenging your existing assumptions, stretching your ability, and developing.
+Being uncomfortable isn't always bad.
+We're used to it signaling that it's time to do something new or change, but discomfort can also be a symptom of growth at work.
+It suggests you're challenging your existing assumptions, stretching your ability, and developing.
 
 As an engineer, I understand discomfort through dissatisfaction the best because it's why I build.
 I set out to fix it or build something new if something isn't good enough.
