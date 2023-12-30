@@ -1,7 +1,7 @@
 ---
 title: Shipposting
 author: DavidJFelix
-description: My first blog post. 2024
+description: Cringeposting about Shipping like its 2024
 date: 2023-12-26
 tags:
   - product
