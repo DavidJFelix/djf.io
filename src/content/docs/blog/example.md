@@ -13,52 +13,50 @@ readingTime: 5m
 
 ## Expectations
 
-As a software engineer, this isn't the blog I wanted to build.
-I have started building this several times, and this isn't what I envisioned, but it's here.
-The fact that you're reading these words is evidence that I wrote a blog.
-My goal was to build a place to express my ideas in long-form.
-As a result, I started building a blog that could accommodate those ideas.
-But, those accomplishments are different, "building a blog" and "writing a blog."
+I'm a software engineer, so **of course**, this isn't the blog I wanted to build.
+I have begun building it several times, and this isn't what I envisioned, but it exists.
+The fact that you're reading these words at all is evidence that I wrote a blog.
+I expected to build a place to express my ideas in long-form, so I started building a blog that could accommodate those ideas.
+But, those expectations are different, "building a blog" and "writing a blog."
 The reason you're able to read this at all is that I stopped building it and wrote it instead.
 It's finally here, and I am conflicted about it.
+I'm dissatisfied with it and shipping it regardless.
 
 For me, dissatisfaction is challenging to accept when shipping a product.
 In Reid Hoffman's words:
 
 > If you are not embarrassed by the first version of your product, you've launched too late.
 
-This wisdom about perfectionism feels like it wants me to ignore my emotions.
-Accepting without reasoning is problematic because it feels like another positive mindset grift.
-Overlooking your embarrassment can get you to the goal, but ignoring it fails to learn from it.
-Without learning, you may be unable to reassure yourself that the goal is worthwhile.
+Hoffman's wisdom about perfectionism has always felt like it wants me to ignore my emotions.
+Accepting it without reasoning is problematic because it feels like accepting any other positive mindset grift -- like the only thing between you and a billion dollars is waking up at 4 am or an ice bath daily.
+Overlooking your embarrassment might get you to the goal, but ignoring it fails to learn anything from it.
+Without learning from it, you'll constantly battle anxiety and you may be unable to reassure yourself that the goal is worthwhile.
 
 ## Goals
 
 It's crucial to describe goals with precision.
-Without precision, it's easy to conflate two distinct ideas.
+Without that precision, it's easy to conflate two distinct ideas.
 Until now, that's been my problem.
-More precise goals are "building a platform" and "writing and publishing."
+More precisely, I've been trying to "build a blog platform" rather than "write and publish more."
 
-It's second nature for engineers to consider one primary side of your requirements.
-They care about the product you build.
-For developers, it's a convincing trap to hold the product to strict quality standards.
+It's second nature for engineers to consider one side of your requirements primarily -- they care about the product you build.
+Holding the product to strict quality standards over everything else is a convincing trap.
 The reality is the existential need for the product is its audience (aka customer, reader, user, etc.)
 If a product doesn't reach its audience, engineering has failed to build it.
 It fails despite the features and quality it fails with.
-It's disheartening that engineers can't save a product with quality or expertise alone.
-But the silver lining is that shipping is straightforward despite its emotional difficulty.
+It's disheartening that engineers can't save a product with quality or expertise alone, but the silver lining is that shipping is straightforward despite its emotional difficulty.
 
 The distinction between goals is in the shipping process; it lies in the "what," "how," and "to whom."
-In the past, I would object that shipping a platform is shipping.
-But, the audience is an existential need, and building a platform is shipping a product to myself.
+In the past, I would object that shipping a platform **is shipping**.
+But, the audience is an existential need, and building a platform is shipping a product to an audience of just me.
 Writing blog posts is shipping a product to my actual audience -- readers.
 
-Creating for yourself is comforting because you're both the audience and the engineer.
-It's short-circuiting shipping without the vulnerability.
+Creating for yourself is comfortable because you're both the audience and the engineer.
+It short-circuits shipping without the vulnerability.
 Still, it's important not to conflate this goal that looks like yours with your actual goal.
-Keeping the actual product and audience in mind matters.
+It's essential to Keep the actual product and audience in mind.
 It helps to set clear objectives to prevent yourself from misconstruing non-goals.
-Clarity prevents amplifying your goal into something immense and more intricate.
+Clarity here prevents amplifying your goal into something immense and more intricate.
 
 ## Reality
 
@@ -67,7 +65,7 @@ It's the same as "feature creep" or "scope creep" in project management.
 The reality is that nobody can be everywhere at once.
 Nobody can build everything all at once.
 Because of that, not all features can be the top priority.
-Non-technical features are still features.
+Non-technical goals are still features to develop.
 Shipping early might mean delaying **almost all** technical features.
 That can feel disappointing, but it's not that engineering does not matter -- it matters a lot.
 Engineering can be instrumental in early decisions and keeping future features in mind.
