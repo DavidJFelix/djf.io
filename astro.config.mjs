@@ -7,7 +7,8 @@ export default defineConfig({
     starlight({
       title: 'DJF.io',
       social: {
-        github: 'https://github.com/withastro/starlight',
+        github: 'https://github.com/davidjfelix',
+        twitter: 'https://twitter.com/davidjfelix',
       },
       sidebar: [
         {

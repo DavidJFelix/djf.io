@@ -1,8 +1,8 @@
 ---
 title: Shipposting
 author: DavidJFelix
-description: Cringeposting about Shipping like its 2024
-date: 2023-12-26
+description: Cringeposting about Shipping for the new year
+date: 2023-12-30
 tags:
   - product
   - startups
