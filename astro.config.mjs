@@ -5,7 +5,7 @@ import {defineConfig} from 'astro/config'
 export default defineConfig({
   integrations: [
     starlight({
-      title: 'DJF.io',
+      title: 'djf.io',
       social: {
         github: 'https://github.com/davidjfelix',
         twitter: 'https://twitter.com/davidjfelix',
