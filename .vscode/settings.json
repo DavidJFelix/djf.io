@@ -1,10 +1,23 @@
 {
-  "cSpell.words": ["architecting", "astro", "astrojs", "gatekept", "tsconfigs"],
+  "cSpell.words": [
+    "architecting",
+    "astro",
+    "astrojs",
+    "DALL-E",
+    "gatekept",
+    "Grammarly",
+    "tsconfigs"
+  ],
   "grammarly.selectors": [
     {
       "language": "markdown",
       "scheme": "file",
       "pattern": "src/content/docs/blog/example.md"
+    },
+    {
+      "language": "mdx",
+      "scheme": "file"
     }
-  ]
+  ],
+  "cSpell.enableFiletypes": ["astro", "just", "mdx", "nix"]
 }

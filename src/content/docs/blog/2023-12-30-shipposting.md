@@ -7,7 +7,8 @@ tags:
   - product
   - startups
   - shipping
-  - meta
+  - meta-blog
+  - personal
 readingTime: 5m
 hero:
   tagline: Resolving to ship more in 2024. It's easier said than done, why is that?
