@@ -1,2 +1,3 @@
 version = 1
 merge.automerge_label = "🚢 ship it 🤖"
+merge.priority_merge_label = "😵 priority merge 🤖"
