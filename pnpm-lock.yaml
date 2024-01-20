@@ -10,7 +10,7 @@ dependencies:
     version: 1.2.1(@internationalized/date@3.5.1)(react-dom@18.2.0)(react@18.2.0)
   '@astrojs/check':
     specifier: ^0.4.0
-    version: 0.4.1(prettier-plugin-astro@0.12.2)(prettier@3.2.4)(typescript@5.3.3)
+    version: 0.4.1(prettier-plugin-astro@0.13.0)(prettier@3.2.4)(typescript@5.3.3)
   '@astrojs/starlight':
     specifier: ^0.16.0
     version: 0.16.0(astro@4.0.7)
@@ -53,8 +53,8 @@ devDependencies:
     specifier: 3.2.4
     version: 3.2.4
   prettier-plugin-astro:
-    specifier: ^0.12.2
-    version: 0.12.2
+    specifier: ^0.13.0
+    version: 0.13.0
 
 packages:
 
@@ -148,13 +148,13 @@ packages:
       - '@internationalized/date'
     dev: false
 
-  /@astrojs/check@0.4.1(prettier-plugin-astro@0.12.2)(prettier@3.2.4)(typescript@5.3.3):
+  /@astrojs/check@0.4.1(prettier-plugin-astro@0.13.0)(prettier@3.2.4)(typescript@5.3.3):
     resolution: {integrity: sha512-XEsuU4TlWkgcsvdeessq5mXLXV1fejtxIioCPv/FfhTzb1bDYe2BtLiSBK+rFTyD9Hl686YOas9AGNMJcpoRsw==}
     hasBin: true
     peerDependencies:
       typescript: ^5.0.0
     dependencies:
-      '@astrojs/language-server': 2.6.2(prettier-plugin-astro@0.12.2)(prettier@3.2.4)(typescript@5.3.3)
+      '@astrojs/language-server': 2.6.2(prettier-plugin-astro@0.13.0)(prettier@3.2.4)(typescript@5.3.3)
       chokidar: 3.5.3
       fast-glob: 3.3.2
       kleur: 4.1.5
@@ -178,7 +178,7 @@ packages:
   /@astrojs/internal-helpers@0.2.1:
     resolution: {integrity: sha512-06DD2ZnItMwUnH81LBLco3tWjcZ1lGU9rLCCBaeUCGYe9cI0wKyY2W3kDyoW1I6GmcWgt1fu+D1CTvz+FIKf8A==}
 
-  /@astrojs/language-server@2.6.2(prettier-plugin-astro@0.12.2)(prettier@3.2.4)(typescript@5.3.3):
+  /@astrojs/language-server@2.6.2(prettier-plugin-astro@0.13.0)(prettier@3.2.4)(typescript@5.3.3):
     resolution: {integrity: sha512-RYzPRhS/WBXK5JtfR+0+nGj+N3VbJd5jU/uSNUev9baUx/RLmUwDk1f6Oy8QDEfDDLAr76Ig8YeDD/nxPdBSLw==}
     hasBin: true
     peerDependencies:
@@ -201,7 +201,7 @@ packages:
       fast-glob: 3.3.2
       muggle-string: 0.3.1
       prettier: 3.2.4
-      prettier-plugin-astro: 0.12.2
+      prettier-plugin-astro: 0.13.0
       volar-service-css: 0.0.17(@volar/language-service@1.11.1)
       volar-service-emmet: 0.0.17(@volar/language-service@1.11.1)
       volar-service-html: 0.0.17(@volar/language-service@1.11.1)
@@ -5170,8 +5170,8 @@ packages:
       path-exists: 4.0.0
       which-pm: 2.0.0
 
-  /prettier-plugin-astro@0.12.2:
-    resolution: {integrity: sha512-1OXSEht27zrnX7rCa0bEpLdspeumFW4hnj4+JzPuG5bRlSOAhD0rbXBNZfRD9q0Qbr00EcCcnjd6k6M8q+GfTA==}
+  /prettier-plugin-astro@0.13.0:
+    resolution: {integrity: sha512-5HrJNnPmZqTUNoA97zn4gNQv9BgVhv+et03314WpQ9H9N8m2L9OSV798olwmG2YLXPl1iSstlJCR1zB3x5xG4g==}
     engines: {node: ^14.15.0 || >=16.0.0}
     dependencies:
       '@astrojs/compiler': 1.8.2
