@@ -26,7 +26,7 @@
   "devDependencies": {
     "@pandacss/astro": "^0.25.0",
     "@pandacss/dev": "^0.27.0",
-    "@park-ui/panda-preset": "^0.28.0",
+    "@park-ui/panda-preset": "^0.29.0",
     "prettier": "3.2.4",
     "prettier-plugin-astro": "^0.13.0"
   }
