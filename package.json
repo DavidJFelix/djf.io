@@ -13,7 +13,7 @@
   "dependencies": {
     "@ark-ui/react": "^1.2.1",
     "@astrojs/check": "^0.4.0",
-    "@astrojs/starlight": "^0.15.1",
+    "@astrojs/starlight": "^0.16.0",
     "@types/react": "^18.2.47",
     "@types/react-dom": "^18.2.18",
     "astro": "^4.0.1",
@@ -28,6 +28,6 @@
     "@pandacss/dev": "^0.27.0",
     "@park-ui/panda-preset": "^0.29.0",
     "prettier": "3.2.4",
-    "prettier-plugin-astro": "^0.12.2"
+    "prettier-plugin-astro": "^0.13.0"
   }
 }
