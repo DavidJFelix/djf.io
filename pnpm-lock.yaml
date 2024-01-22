@@ -47,8 +47,8 @@ devDependencies:
     specifier: ^0.27.0
     version: 0.27.0(typescript@5.3.3)
   '@park-ui/panda-preset':
-    specifier: ^0.29.0
-    version: 0.29.0(@internationalized/date@3.5.1)(@pandacss/dev@0.27.0)(@pandacss/types@0.27.0)
+    specifier: ^0.30.0
+    version: 0.30.0(@internationalized/date@3.5.1)(@pandacss/dev@0.27.0)(@pandacss/types@0.27.0)
   prettier:
     specifier: 3.2.4
     version: 3.2.4
@@ -1768,8 +1768,8 @@ packages:
     resolution: {integrity: sha512-dRvbZ+K8K1DmQhlaymL2uuKuV2/f7w4J7qcsAOXuA8qjdeJu6D+PUBUyRUXe520spxLDTx/SYqJ8cc+b01kTBg==}
     dev: true
 
-  /@park-ui/panda-preset@0.29.0(@internationalized/date@3.5.1)(@pandacss/dev@0.27.0)(@pandacss/types@0.27.0):
-    resolution: {integrity: sha512-Epq3iXtfX6ORcJ4doRuQUXZ9utmj6NEslHw6sPDzTcxGCFKQJdS6FDsyTiufkTtphPYa7UML2jKczDouNg3L+g==}
+  /@park-ui/panda-preset@0.30.0(@internationalized/date@3.5.1)(@pandacss/dev@0.27.0)(@pandacss/types@0.27.0):
+    resolution: {integrity: sha512-wn3VFAAGFJgE4/NLVX9LN/JPUHCWKYGbGK8ukrQTNj6zu0IrcSqYWovBu5O1+rL2we5r69AhPQ5kb8DZ8Fc4iQ==}
     peerDependencies:
       '@pandacss/dev': '>0.22.0'
       '@pandacss/types': '>0.22.0'
