@@ -1,0 +1,267 @@
+---
+title: 'On Data Evolution'
+subtitle: 'Schemas, Types, Structures and Versioning'
+author: DavidJFelix
+description: 'Schemas, Types, Structures and Versioning'
+date: 2023-12-30
+tags:
+  - data
+  - types
+  - safety
+  - sdlc
+  - software
+readingTime: 5m
+hero:
+  tagline: 'Schemas, Types, Structures and Versioning'
+  image:
+    file: ../../../assets/shipposting-hero.png
+    alt: ''
+---
+
+import {Tabs, TabItem} from '@astrojs/starlight/components'
+
+## The Structure of Data
+
+There are many ways to structure data.
+For the sake of this post, I'm going to refer to strongly typed languages since we'll be discussing the structure directly and how it evolves.
+Strong typing makes that a little easier since the type is explicit.
+
+We build structures everywhere and define what the look like in a number of different ways.
+For example, if we were defining an early `User` structure here's what it might look like for TypeScript/JSON, SQLite and Protobuf/go.
+
+<Tabs>
+  <TabItem label="TypeScript">
+
+```typescript
+type User = {
+  id: string
+  name: string
+}
+
+const user: User = {
+  id: 'user_2x4y6z8a0b1c2d3e4f5g6h7j8k',
+  name: 'David J Felix',
+}
+```
+
+  </TabItem>
+  <TabItem label="SQLite">
+
+    ```sql
+    CREATE TABLE users IF NOT EXISTS (
+      id TEXT PRIMARY KEY NOT NULL,
+      name TEXT NOT NULL
+    );
+
+    INSERT INTO users (
+      id,
+      name
+    ) VALUES (
+      'user_2x4y6z8a0b1c2d3e4f5g6h7j8',
+      'David J Felix'
+    );
+    ```
+
+  </TabItem>
+  <TabItem label="Protobuf">
+
+    Protobuf:
+
+    ```proto
+    message User {
+      string id = 1;
+      string name = 2;
+    }
+    ```
+
+    Go:
+
+    ```go
+    user := pb.User{
+        Id:   "user_2x4y6z8a0b1c2d3e4f5g6h7j8",
+        Name: "David J Felix",
+    }
+    ```
+
+  </TabItem>
+</Tabs>
+
+- Whether you use a map or a tuple, a list or a struct, the data has structure.
+- Structure and patterns give data greater value and capabilities
+
+- Changing the structure of the data is part of the lifecycle of applications
+
+<Tabs>
+  <TabItem label="TypeScript">
+
+    ```typescript
+    type User = {
+      id: string
+      name: string
+      email: string
+    }
+
+    const user: User = {
+      id: 'user_2x4y6z8a0b1c2d3e4f5g6h7j8k',
+      name: 'David J Felix',
+      email: 'blog@djf.io',
+    }
+    ```
+
+  </TabItem>
+  <TabItem label="SQLite">
+
+    ```sql
+    -- For an existing database this won't run because EXISTS = true
+    CREATE TABLE users IF NOT EXISTS (
+      id TEXT PRIMARY KEY NOT NULL,
+      name TEXT NOT NULL
+    );
+    ALTER TABLE users ADD email TEXT NOT NULL DEFAULT '';
+
+    INSERT INTO users (
+      id,
+      name,
+      email
+    ) VALUES (
+      'user_2x4y6z8a0b1c2d3e4f5g6h7j8',
+      'David J Felix',
+      'blog@djf.io'
+    );
+    ```
+
+  </TabItem>
+  <TabItem label="Protobuf">
+
+    Protobuf:
+
+    ```proto
+    message User {
+      string id = 1;
+      string name = 2;
+      string email = 3;
+    }
+    ```
+
+    Go:
+
+    ```go
+    user := pb.User{
+        Id:    "user_2x4y6z8a0b1c2d3e4f5g6h7j8",
+        Name:  "David J Felix",
+        Email: "blog@djf.io",
+    }
+    ```
+
+  </TabItem>
+</Tabs>
+
+- Protobuf advises you don't do this since it's a breaking change that will break backwards compatibility with old clients.
+- There's a difference in immediacy. SQL has a concept of altering data.
+- With SQL we have to address existing data. `DEFAULT ''` is used to accommodate existing rows that don't currently have an email but need to meet the constraint that the column be `NOT NULL`.
+- This means it's still backwards compatible but perhaps not perfectly because the empty value isn't really much more meaningful than null.
+- Typescript might feel immune to these issues but values saved in `localstorage`, JSON fetched from older APIs, ir data in KV/Object/Document storage
+- Likewise, if we were to build a rollback migration it might look like
+
+```sql
+ALTER TABLE users DROP email;
+```
+
+- This more explicitly handles some of the edge cases with versioning some DDLs like protobuf have documentation that advise against adding required fields since they don't allow for defaults in the DDL and it will be a breaking change for clients that omit it.
+- While adding a column has an explicit migration data fill from `undefined` -> `''` with `DEFAULT ''`, drop has an implicit migration from `'blog@djf.io` -> `undefined`
+
+- Protobuf advises this:
+
+<Tabs>
+  <TabItem label="TypeScript">
+
+    ```typescript
+    type User = {
+      id: string
+      name: string
+      email?: string
+    }
+    ```
+
+  </TabItem>
+  <TabItem label="SQLite">
+  
+    ```sql
+    ALTER TABLE users ADD email TEXT DEFAULT NULL;
+    ```
+
+  </TabItem>
+  <TabItem label="Protobuf">
+
+    ```proto
+    message User {
+      string id = 1;
+      string name = 2;
+      optional string email = 3;
+    }
+    ```
+
+  </TabItem>
+</Tabs>
+
+- I think this is a debatable tactic for SQLite and less desirable for typescript.
+- Protobuf handles this nicely since the code generation is the same and uses default values. This is similar to SQLite.
+- I think the SQLite tactic is debatable because it pushes the default behavior to the application code. For empty string, it might as well be null (but now requires null checks).
+  - For booleans you have to decide which default is correct
+  - For enums you have to decide which state is default.
+
+and no migration for rollback.
+
+The pain here happens if you rollback or otherwise remove or change the type of the `email` column elsewhere -- it pushes the problem.
+
+```sql
+CREATE TABLE schema_mappings IF NOT EXISTS (
+  schema_version TEXT NOT NULL,
+  field_name TEXT NOT NULL,
+  column_name TEXT NOT NULL,
+  PRIMARY KEY (schema_version, field_name)
+);
+-- Put
+INSERT INTO schema_mappings (
+  schema_version,
+  field_name,
+  column_name
+) VALUES (
+  '0001',
+  'id',
+  'id',
+);
+
+ALTER TABLE users ADD email_0001 TEXT DEFAULT NULL;
+INSERT INTO schema_mappings (
+  schema_version,
+  field_name,
+  column_name
+) VALUES (
+  '0001',
+  'email',
+  'email_0001'
+);
+
+-- Older clients
+SELECT id, name FROM users;
+INSERT INTO users (
+  id,
+  name
+) VALUES (
+  'user_2x4y6z8a0b1c2d3e4f5g6h7j8',
+  'David J Felix'
+);
+
+-- Newer clients
+SELECT id, name, email_0001 AS email FROM users;
+INSERT INTO users (
+  id,
+  name,
+  email_0001
+) VALUES (
+  'user_2x4y6z8a0b1c2d3e4f5g6h7j8',
+  'David J Felix',
+  'blog@djf.io'
+);
+```
