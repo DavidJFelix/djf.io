@@ -48,7 +48,7 @@ const user: User = {
   <TabItem label="SQLite">
 
     ```sql
-    CREATE TABLE users IF NOT EXISTS (
+    CREATE TABLE IF NOT EXISTS users (
       id TEXT PRIMARY KEY NOT NULL,
       name TEXT NOT NULL
     );
@@ -113,7 +113,7 @@ const user: User = {
 
     ```sql
     -- For an existing database this won't run because EXISTS = true
-    CREATE TABLE users IF NOT EXISTS (
+    CREATE TABLE IF NOT EXISTS users (
       id TEXT PRIMARY KEY NOT NULL,
       name TEXT NOT NULL
     );
@@ -210,12 +210,36 @@ ALTER TABLE users DROP email;
   - For booleans you have to decide which default is correct
   - For enums you have to decide which state is default.
 
-and no migration for rollback.
+No rollback migration is necessary but it could be used.
 
 The pain here happens if you rollback or otherwise remove or change the type of the `email` column elsewhere -- it pushes the problem.
+Suppose your migration isn't quite the same.
+
+# this is where my thoughts go rogue
+
+<Tabs>
+  <TabItem label="SQLite Migration">
+  
+    ```sql
+    ALTER TABLE users ADD family_name TEXT DEFAULT  ;
+    ```
+
+  </TabItem>
+  <TabItem label="SQLite Rollback Migration">
+
+    ```proto
+    message User {
+      string id = 1;
+      string name = 2;
+      optional string email = 3;
+    }
+    ```
+
+  </TabItem>
+</Tabs>
 
 ```sql
-CREATE TABLE schema_mappings IF NOT EXISTS (
+CREATE TABLE IF NOT EXISTS schema_mappings (
   schema_version TEXT NOT NULL,
   field_name TEXT NOT NULL,
   column_name TEXT NOT NULL,
@@ -264,4 +288,48 @@ INSERT INTO users (
   'David J Felix',
   'blog@djf.io'
 );
+```
+
+I propose
+
+```typescript
+type User0001 = {
+  id: string
+  name: string
+}
+
+type User0002 = {
+  id: string
+  givenName: string
+  familyName: string
+}
+
+function fromUser0001ToUser0002(user: User0001): User0002 {
+  const {id, name} = user
+  return {
+    id,
+    givenName: name.split(' '),
+    familyName: name.split(' '),
+  }
+}
+
+function fromUser0002ToUser0001(user: User0002): User0001 {
+  const {id, givenName, familyName} = user
+  return {
+    id,
+    name: `${givenName} ${familyName}`,
+  }
+}
+```
+
+what if it was possible to encapsulate this into a meta type with:
+
+```typescript
+type User = (
+  version: '0001'
+  inner: User0001
+) | (
+  version: '0002'
+  inner: User0002
+)
 ```
