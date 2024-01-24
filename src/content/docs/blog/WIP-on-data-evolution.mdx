@@ -333,3 +333,31 @@ type User = (
   inner: User0002
 )
 ```
+
+Which could be used consistently as data evolves:
+
+```typescript
+const newUser: User = {
+  version: '0002',
+  inner: {
+    id: 'user_2x4y6z8a0b1c2d3e4f5g6h7j8',
+    givenName: 'David J'
+    familyName:  'Felix',
+  }
+}
+```
+
+I could get an old version of user if I had logic that depended on that:
+
+```typescript
+const oldUser = migrateTo<'0001'>(newUser)
+console.log(oldUser.name) // No more pesky logic upgrades!
+```
+
+So could this be done?
+
+With SQLite we have a snapshot of the current schema applied to all of our data. It's maybe not natively possible with SQLite, native SQL examples exist for MySQL, Postgres and Vitess.
+Vitess has online schema migrations, postgres could use materialized views and MySQL can use gh-ost to make ghost tables.
+With SQLite we could push the behavior clientside and constantly add fields, making tables wider.
+
+With typescript, we could parse types for our schema objects and create lock files for those types based on a hash and output a discriminated variant
