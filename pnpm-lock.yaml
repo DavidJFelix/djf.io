@@ -47,8 +47,8 @@ devDependencies:
     specifier: ^0.28.0
     version: 0.28.0(typescript@5.3.3)
   '@park-ui/panda-preset':
-    specifier: ^0.30.0
-    version: 0.30.0(@internationalized/date@3.5.1)(@pandacss/dev@0.28.0)(@pandacss/types@0.27.0)
+    specifier: ^0.31.0
+    version: 0.31.0(@internationalized/date@3.5.1)(@pandacss/dev@0.28.0)(@pandacss/types@0.28.0)
   prettier:
     specifier: 3.2.4
     version: 3.2.4
@@ -1792,23 +1792,19 @@ packages:
     resolution: {integrity: sha512-59K5yAILCemzi2y3uyxcd42DiP3+ahjUa3FcFXzCImROPdPoXMR49QVv4yPYoG0wYxMHeA+RDtJVaAV43bwHnw==}
     dev: true
 
-  /@pandacss/types@0.27.0:
-    resolution: {integrity: sha512-dRvbZ+K8K1DmQhlaymL2uuKuV2/f7w4J7qcsAOXuA8qjdeJu6D+PUBUyRUXe520spxLDTx/SYqJ8cc+b01kTBg==}
-    dev: true
-
   /@pandacss/types@0.28.0:
     resolution: {integrity: sha512-6HvmCMBhmp+UIPHHN4EGsIaFzzSUMxy9eztKqfr+uYM3rmV9uNATpbG3dMEvnZiFQT0i3lLCONKwtdW52EmXzQ==}
     dev: true
 
-  /@park-ui/panda-preset@0.30.0(@internationalized/date@3.5.1)(@pandacss/dev@0.28.0)(@pandacss/types@0.27.0):
-    resolution: {integrity: sha512-wn3VFAAGFJgE4/NLVX9LN/JPUHCWKYGbGK8ukrQTNj6zu0IrcSqYWovBu5O1+rL2we5r69AhPQ5kb8DZ8Fc4iQ==}
+  /@park-ui/panda-preset@0.31.0(@internationalized/date@3.5.1)(@pandacss/dev@0.28.0)(@pandacss/types@0.28.0):
+    resolution: {integrity: sha512-lJQE83Kr56ZuemQGMTfDwbIIW46os/fgc2FTDQFkI7ADOFnenupp/FTt+pW1snthC7zbnNxY12o1euQ9MKqmOA==}
     peerDependencies:
       '@pandacss/dev': '>0.22.0'
       '@pandacss/types': '>0.22.0'
     dependencies:
       '@ark-ui/anatomy': 1.3.0(@internationalized/date@3.5.1)
       '@pandacss/dev': 0.28.0(typescript@5.3.3)
-      '@pandacss/types': 0.27.0
+      '@pandacss/types': 0.28.0
       '@radix-ui/colors': 3.0.0
       deepmerge: 4.3.1
       ts-pattern: 5.0.6
