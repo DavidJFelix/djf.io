@@ -1,6 +1,6 @@
 ---
 title: 'On Data Evolution'
-subtitle: 'Schemas, Types, Structures and Versioning'
+subtitle: 'Schemas, Types, Structures, and Versioning'
 author: DavidJFelix
 description: 'Schemas, Types, Structures and Versioning'
 date: 2023-12-30
@@ -20,14 +20,20 @@ hero:
 
 import {Tabs, TabItem} from '@astrojs/starlight/components'
 
-## The Structure of Data
+## ALL data has structure
 
-There are many ways to structure data.
-For the sake of this post, I'm going to refer to strongly typed languages since we'll be discussing the structure directly and how it evolves.
-Strong typing makes that a little easier since the type is explicit.
+Regardless of if you define the structure ahead of time, all data has some structure.
+Well-structured data is more immediately usable, but even randomly assembled data has structure.
+For the sake of this article, we'll work with structures that are a little more sensible than an array of bits.
+I'll work with strongly typed languages with types statically defined rather than interpreted or parsed, but it's important to remember that this is possible with more complex types.
 
-We build structures everywhere and define what the look like in a number of different ways.
-For example, if we were defining an early `User` structure here's what it might look like for TypeScript/JSON, SQLite and Protobuf/go.
+## All things are data
+
+We build data structures everywhere.
+They are pervasive whether we explicitly define what they look like or implicitly rely on them.
+Data is in primitive types, structured data, and even function signatures.
+Statically typed languages allow us to pry into the structure and name the types we're working with, which helps when discussing migrations.
+For example, if we were defining an early `User` structure, here's what it might look like for TypeScript/JSON, SQLite, and Protobuf/go.
 
 <Tabs>
   <TabItem label="TypeScript">
@@ -86,8 +92,21 @@ const user: User = {
   </TabItem>
 </Tabs>
 
-- Whether you use a map or a tuple, a list or a struct, the data has structure.
-- Structure and patterns give data greater value and capabilities
+## The way we talk about data changes over time
+
+### Sometimes the structure must change to accommodate that
+
+### Changing structures can damage usability between versions
+
+## We should make migrations first class
+
+### Codified and lazy migrations help
+
+    #### Allow data to exist in multiple versions
+
+### We should refer to structures immutably
+
+    #### This allows us to continuously manage old versions
 
 - Changing the structure of the data is part of the lifecycle of applications
 
