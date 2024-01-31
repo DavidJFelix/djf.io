@@ -1,8 +1,8 @@
 ---
 title: 'On Data Evolution'
-subtitle: 'Schemas, Types, Structures, and Versioning'
+subtitle: 'Schemas, types, structures, and versioning data -- what more could you want?'
 author: DavidJFelix
-description: 'Schemas, Types, Structures and Versioning'
+description: 'Schemas, types, structures, and versioning data -- what more could you want?'
 date: 2023-12-30
 tags:
   - data
@@ -12,7 +12,7 @@ tags:
   - software
 readingTime: 5m
 hero:
-  tagline: 'Schemas, Types, Structures and Versioning'
+  tagline: 'Schemas, types, structures, and versioning data -- what more could you want?'
   image:
     file: ../../../assets/shipposting-hero.png
     alt: ''
@@ -38,20 +38,27 @@ For example, if we were defining an early `User` structure, here's what it might
 <Tabs>
   <TabItem label="TypeScript">
 
-```typescript
-type User = {
-  id: string
-  name: string
-}
+    Typescript allows us to do compile/transpile-time type-checking and provides a few niceties for runtime type-assertions.
+    This is a thin wrapper over the capabilities of Javascript.
+    Even after we compile this code and the types disappear, the data still has structure.
 
-const user: User = {
-  id: 'user_2x4y6z8a0b1c2d3e4f5g6h7j8k',
-  name: 'David J Felix',
-}
-```
+    ```typescript
+    type User = {
+      id: string
+      name: string
+    }
+
+    const user: User = {
+      id: 'user_2x4y6z8a0b1c2d3e4f5g6h7j8k',
+      name: 'David J Felix',
+    }
+    ```
 
   </TabItem>
   <TabItem label="SQLite">
+
+    In addition to being a query language, SQL is also a data definition language (DDL).
+    The DDL capabilities allow us to add strong types to our data.
 
     ```sql
     CREATE TABLE IF NOT EXISTS users (
@@ -71,6 +78,9 @@ const user: User = {
   </TabItem>
   <TabItem label="Protobuf">
 
+    Protocol buffers (protobuf) have an interface description language (IDL) that describes the structure of the data.
+    This IDL allows developers to serialize and deserialize data from byte-streams to structures in their language of choice.
+
     Protobuf:
 
     ```proto
@@ -79,6 +89,8 @@ const user: User = {
       string name = 2;
     }
     ```
+
+    Developers can use the protobuf compiler to generate code for interfacing with these types.
 
     Go:
 
@@ -92,26 +104,17 @@ const user: User = {
   </TabItem>
 </Tabs>
 
-## The way we talk about data changes over time
+## The way we talk about data types changes over time
 
-### Sometimes the structure must change to accommodate that
-
-### Changing structures can damage usability between versions
-
-## We should make migrations first class
-
-### Codified and lazy migrations help
-
-    #### Allow data to exist in multiple versions
-
-### We should refer to structures immutably
-
-    #### This allows us to continuously manage old versions
-
-- Changing the structure of the data is part of the lifecycle of applications
+If the only requirements were to define and use the data, our lives as software engineers would be easy.
+The problem arises when we look at data types through a software development lifecycle (SDLC) lens.
+The above types are a small snapshot of the data we might need as we add new features and this application changes.
+Suppose we wanted to add a new field to `User` - an `email` so we can send them updates when our blog is published!
 
 <Tabs>
   <TabItem label="TypeScript">
+
+    For TypeScript, we can update the type and update areas where it's used.
 
     ```typescript
     type User = {
@@ -131,11 +134,13 @@ const user: User = {
   <TabItem label="SQLite">
 
     ```sql
-    -- For an existing database this won't run because EXISTS = true
+    -- This CREATE isn't necessary if we assume we're still using the database from before
+    -- For an existing database this won't run because EXISTS = true (NOT EXISTS = false)
     CREATE TABLE IF NOT EXISTS users (
       id TEXT PRIMARY KEY NOT NULL,
       name TEXT NOT NULL
     );
+
     ALTER TABLE users ADD email TEXT NOT NULL DEFAULT '';
 
     INSERT INTO users (
@@ -175,7 +180,23 @@ const user: User = {
   </TabItem>
 </Tabs>
 
-- Protobuf advises you don't do this since it's a breaking change that will break backwards compatibility with old clients.
+### The structure of the data often must change to accommodate data changes
+
+### Changing structures can damage usability between versions
+
+## We should make migrations first class
+
+### Codified and lazy migrations help
+
+    #### Allow data to exist in multiple versions
+
+### We should refer to structures immutably
+
+    #### This allows us to continuously manage old versions
+
+- Changing the structure of the data is part of the lifecycle of applications
+
+- Protobuf advises that you don't do this since it's a breaking change that will break backward compatibility with old clients.
 - There's a difference in immediacy. SQL has a concept of altering data.
 - With SQL we have to address existing data. `DEFAULT ''` is used to accommodate existing rows that don't currently have an email but need to meet the constraint that the column be `NOT NULL`.
 - This means it's still backwards compatible but perhaps not perfectly because the empty value isn't really much more meaningful than null.
