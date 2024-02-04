@@ -27,7 +27,7 @@
     "@pandacss/astro": "^0.25.0",
     "@pandacss/dev": "^0.29.0",
     "@park-ui/panda-preset": "^0.33.0",
-    "prettier": "3.2.4",
+    "prettier": "3.2.5",
     "prettier-plugin-astro": "^0.13.0"
   }
 }
