@@ -33,8 +33,8 @@ dependencies:
     specifier: ^0.33.0
     version: 0.33.1
   starlight-blog:
-    specifier: ^0.4.0
-    version: 0.4.0(@astrojs/starlight@0.18.0)(astro@4.0.7)
+    specifier: ^0.5.0
+    version: 0.5.0(@astrojs/starlight@0.18.0)(astro@4.0.7)
   typescript:
     specifier: ^5.3.3
     version: 5.3.3
@@ -5915,12 +5915,12 @@ packages:
   /sprintf-js@1.0.3:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
 
-  /starlight-blog@0.4.0(@astrojs/starlight@0.18.0)(astro@4.0.7):
-    resolution: {integrity: sha512-3mVQ0hwH1XDews/EaG+rN1RA+7yqa7LTqBtTVfjiODC6IL1MRspKqe3MgEU4QFksh9/hEnk5jxC4GPAp2mUFPA==}
+  /starlight-blog@0.5.0(@astrojs/starlight@0.18.0)(astro@4.0.7):
+    resolution: {integrity: sha512-3h/ZnUc9bIArxOnX4RuzscnS9aj5ilr9fD+GzGa1wJQwJhi6cmI/AnJdh0XG17C7OOl8xdBUjO5BLN/mP9R0uw==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
-      '@astrojs/starlight': '>=0.11.0'
-      astro: '>=3.2.0'
+      '@astrojs/starlight': '>=0.19.0'
+      astro: '>=4.2.7'
     dependencies:
       '@astrojs/starlight': 0.18.0(astro@4.0.7)
       astro: 4.0.7(typescript@5.3.3)
