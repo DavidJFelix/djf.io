@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@ark-ui/react':
     specifier: ^2.0.0
-    version: 2.2.1(@internationalized/date@3.5.2)(react-dom@18.2.0)(react@18.2.0)
+    version: 2.2.2(@internationalized/date@3.5.2)(react-dom@18.2.0)(react@18.2.0)
   '@astrojs/check':
     specifier: ^0.5.0
     version: 0.5.6(prettier-plugin-astro@0.13.0)(prettier@3.2.5)(typescript@5.3.3)
@@ -149,8 +149,8 @@ packages:
       - '@internationalized/date'
     dev: false
 
-  /@ark-ui/react@2.2.1(@internationalized/date@3.5.2)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-4OhE4Rjeuf9e6FuAWwdVVnE02eukTqwEtpNlNIdFiX7gfTEmBlmglvryth4Gj0E5B6e/mQYwrElxzZ+X2F66dQ==}
+  /@ark-ui/react@2.2.2(@internationalized/date@3.5.2)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-M32c1gHrwOQE0Ku0gJtYfVLdyiBgjWIruLqQWUhrXdBeLkXY72eT1sWPT9VMGZIZJ0eZBfqnvBAbKvj+ZGduVQ==}
     peerDependencies:
       react: '>=18.0.0'
       react-dom: '>=18.0.0'
@@ -1460,12 +1460,6 @@ packages:
     dev: false
     optional: true
 
-  /@internationalized/date@3.5.1:
-    resolution: {integrity: sha512-LUQIfwU9e+Fmutc/DpRTGXSdgYZLBegi4wygCWDSVmUdLTaMHsQyASDiJtREwanwKuQLq0hY76fCJ9J/9I2xOQ==}
-    dependencies:
-      '@swc/helpers': 0.5.3
-    dev: true
-
   /@internationalized/date@3.5.2:
     resolution: {integrity: sha512-vo1yOMUt2hzp63IutEaTUxROdvQg1qlMRsbCvbay2AK2Gai7wIgCyK5weEX3nHkiLgo4qCXHijFNC/ILhlRpOQ==}
     dependencies:
@@ -1474,7 +1468,7 @@ packages:
   /@internationalized/number@3.5.0:
     resolution: {integrity: sha512-ZY1BW8HT9WKYvaubbuqXbbDdHhOUMfE2zHHFJeTppid0S+pc8HtdIxFxaYMsGjCb4UsF+MEJ4n2TfU7iHnUK8w==}
     dependencies:
-      '@swc/helpers': 0.5.3
+      '@swc/helpers': 0.5.6
     dev: true
 
   /@internationalized/number@3.5.1:
@@ -2100,12 +2094,6 @@ packages:
     resolution: {integrity: sha512-gTYLUIuD1UbZp/11qozD3fWpUTuMqPSf3svDMMrL0UmlGU7D9dPw/V1FonwAorCUJBltaaESxq90jrSjQyGixg==}
     dev: false
 
-  /@swc/helpers@0.5.3:
-    resolution: {integrity: sha512-FaruWX6KdudYloq1AHD/4nU+UsMTdNE8CKyrseXWEcgjDAbvkwJg2QGPAnfIJLIWsjZOSPLOAykK6fuYp4vp4A==}
-    dependencies:
-      tslib: 2.6.2
-    dev: true
-
   /@swc/helpers@0.5.6:
     resolution: {integrity: sha512-aYX01Ke9hunpoCexYAgQucEpARGQ5w/cqHFrIR+e9gdKb1QWTsVJuTJ2ozQzIAxLyRQe/m+2RqzkyOOGiMKRQA==}
     dependencies:
@@ -2687,10 +2675,10 @@ packages:
   /@zag-js/date-picker@0.36.1:
     resolution: {integrity: sha512-euYW0yY3Ra+g6co7ieIa9OaqnQaCREg0ag3dw0iAwyE76qweoNgijQKOP08Jjkl2x6t4YGwK3A38fux+5xmKXA==}
     dependencies:
-      '@internationalized/date': 3.5.1
+      '@internationalized/date': 3.5.2
       '@zag-js/anatomy': 0.36.1
       '@zag-js/core': 0.36.1
-      '@zag-js/date-utils': 0.36.1(@internationalized/date@3.5.1)
+      '@zag-js/date-utils': 0.36.1(@internationalized/date@3.5.2)
       '@zag-js/dismissable': 0.36.1
       '@zag-js/dom-event': 0.36.1
       '@zag-js/dom-query': 0.36.1
@@ -2719,14 +2707,6 @@ packages:
       '@zag-js/types': 0.38.0
       '@zag-js/utils': 0.38.0
     dev: false
-
-  /@zag-js/date-utils@0.36.1(@internationalized/date@3.5.1):
-    resolution: {integrity: sha512-vWB+7V+uhKLiYFRHHvBg/LtMg16Y+Q+2umrDxnM5m4eJHMEPmpvGCziCZLkU2IucZSjR4SJbC3/jihXaCc7lKQ==}
-    peerDependencies:
-      '@internationalized/date': '>=3.0.0'
-    dependencies:
-      '@internationalized/date': 3.5.1
-    dev: true
 
   /@zag-js/date-utils@0.36.1(@internationalized/date@3.5.2):
     resolution: {integrity: sha512-vWB+7V+uhKLiYFRHHvBg/LtMg16Y+Q+2umrDxnM5m4eJHMEPmpvGCziCZLkU2IucZSjR4SJbC3/jihXaCc7lKQ==}
