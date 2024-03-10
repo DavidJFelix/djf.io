@@ -1,9 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:best-practices"],
-  "patch": {
-    "autoApprove": true,
-    "labels": ["🚢 ship it 🤖"],
-    "schedule": ["every weekend"]
-  }
+  "extends": ["config:best-practices"]
 }
