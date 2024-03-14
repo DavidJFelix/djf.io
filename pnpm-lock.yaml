@@ -13,7 +13,7 @@ dependencies:
     version: 0.5.9(prettier-plugin-astro@0.13.0)(prettier@3.2.5)(typescript@5.4.2)
   '@astrojs/starlight':
     specifier: ^0.21.0
-    version: 0.21.1(astro@4.5.3)
+    version: 0.21.1(astro@4.5.4)
   '@types/react':
     specifier: ^18.2.47
     version: 18.2.66
@@ -22,7 +22,7 @@ dependencies:
     version: 18.2.22
   astro:
     specifier: ^4.0.1
-    version: 4.5.3(typescript@5.4.2)
+    version: 4.5.4(typescript@5.4.2)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -34,7 +34,7 @@ dependencies:
     version: 0.33.2
   starlight-blog:
     specifier: ^0.5.0
-    version: 0.5.1(@astrojs/starlight@0.21.1)(astro@4.5.3)
+    version: 0.5.1(@astrojs/starlight@0.21.1)(astro@4.5.4)
   typescript:
     specifier: ^5.3.3
     version: 5.4.2
@@ -42,13 +42,13 @@ dependencies:
 devDependencies:
   '@pandacss/astro':
     specifier: 0.25.0
-    version: 0.25.0(astro@4.5.3)(postcss@8.4.35)(typescript@5.4.2)
+    version: 0.25.0(astro@4.5.4)(postcss@8.4.35)(typescript@5.4.2)
   '@pandacss/dev':
     specifier: 0.34.3
     version: 0.34.3(typescript@5.4.2)
   '@park-ui/panda-preset':
     specifier: 0.36.1
-    version: 0.36.1(@internationalized/date@3.5.2)(@pandacss/dev@0.34.3)(@pandacss/types@0.34.3)
+    version: 0.36.1(@internationalized/date@3.5.2)(@pandacss/dev@0.34.3)(@pandacss/types@0.35.0)
   prettier:
     specifier: 3.2.5
     version: 3.2.5
@@ -262,7 +262,7 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@astrojs/mdx@2.1.1(astro@4.5.3):
+  /@astrojs/mdx@2.1.1(astro@4.5.4):
     resolution: {integrity: sha512-AgGFdE7HOGmoFooGvMSatkA9FiSKwyVW7ImHot/bXJ6uAbFfu6iG2ht18Cf1pT22Hda/6iSCGWusFvBv0/EnKQ==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
@@ -271,7 +271,7 @@ packages:
       '@astrojs/markdown-remark': 4.2.1
       '@mdx-js/mdx': 3.0.1
       acorn: 8.11.3
-      astro: 4.5.3(typescript@5.4.2)
+      astro: 4.5.4(typescript@5.4.2)
       es-module-lexer: 1.4.1
       estree-util-visit: 2.0.0
       github-slugger: 2.0.0
@@ -301,18 +301,18 @@ packages:
       zod: 3.22.4
     dev: false
 
-  /@astrojs/starlight@0.21.1(astro@4.5.3):
+  /@astrojs/starlight@0.21.1(astro@4.5.4):
     resolution: {integrity: sha512-nQ5EwKnB3eI8jxQrbgzZJJcyxeIiL3GzsAhl//1fE541MlD+PKy53v1PsYPi/RILdjt1Pg39rf1fkJC/rhXRgw==}
     peerDependencies:
       astro: ^4.2.7
     dependencies:
-      '@astrojs/mdx': 2.1.1(astro@4.5.3)
+      '@astrojs/mdx': 2.1.1(astro@4.5.4)
       '@astrojs/sitemap': 3.1.1
       '@pagefind/default-ui': 1.0.4
       '@types/hast': 3.0.4
       '@types/mdast': 4.0.3
-      astro: 4.5.3(typescript@5.4.2)
-      astro-expressive-code: 0.33.4(astro@4.5.3)
+      astro: 4.5.4(typescript@5.4.2)
+      astro-expressive-code: 0.33.4(astro@4.5.4)
       bcp-47: 2.1.0
       hast-util-from-html: 2.0.1
       hast-util-select: 6.0.2
@@ -1365,13 +1365,13 @@ packages:
     dev: false
     optional: true
 
-  /@pandacss/astro@0.25.0(astro@4.5.3)(postcss@8.4.35)(typescript@5.4.2):
+  /@pandacss/astro@0.25.0(astro@4.5.4)(postcss@8.4.35)(typescript@5.4.2):
     resolution: {integrity: sha512-4CU0n+Rf/om7+BPrcd2dbUJjXrxUJ8KoCTCOprha8PYI9oPi8viEVNoKrEyjek3DXT9Sr+Dr9scvQVxqASdsWA==}
     peerDependencies:
       astro: '>=2.x'
     dependencies:
       '@pandacss/postcss': 0.25.0(typescript@5.4.2)
-      astro: 4.5.3(typescript@5.4.2)
+      astro: 4.5.4(typescript@5.4.2)
       postcss-load-config: 4.0.2(postcss@8.4.35)
     transitivePeerDependencies:
       - jsdom
@@ -1747,7 +1747,11 @@ packages:
     resolution: {integrity: sha512-MBwY4DCQfzv3xMqj4y6QSkFUv3wW46ipCHp9hATaeMdyb0aE316xiAgXnxnPZQA+xpjhTpWv7QE7NN3S9g0j/A==}
     dev: true
 
-  /@park-ui/panda-preset@0.36.1(@internationalized/date@3.5.2)(@pandacss/dev@0.34.3)(@pandacss/types@0.34.3):
+  /@pandacss/types@0.35.0:
+    resolution: {integrity: sha512-o049YHTZxJQAB7POc0k5tk7QQByGsMN6JBzQSxlcRp/hry/QYuYikj7SSZRcc2Vd+TVCnVgh8c/W9iznvN0Kag==}
+    dev: true
+
+  /@park-ui/panda-preset@0.36.1(@internationalized/date@3.5.2)(@pandacss/dev@0.34.3)(@pandacss/types@0.35.0):
     resolution: {integrity: sha512-R5qDv9ky78+LLDXVObCSIYt26UNoJLUATTNHVvekkAJwls1YxScyvqa8W8tpWadARPnKk0J77O14qwIa4h1anw==}
     peerDependencies:
       '@pandacss/dev': '>0.22.0'
@@ -1755,7 +1759,7 @@ packages:
     dependencies:
       '@ark-ui/anatomy': 2.3.1(@internationalized/date@3.5.2)
       '@pandacss/dev': 0.34.3(typescript@5.4.2)
-      '@pandacss/types': 0.34.3
+      '@pandacss/types': 0.35.0
       '@radix-ui/colors': 3.0.0
       deepmerge: 4.3.1
       ts-pattern: 5.0.8
@@ -2782,18 +2786,18 @@ packages:
     hasBin: true
     dev: false
 
-  /astro-expressive-code@0.33.4(astro@4.5.3):
+  /astro-expressive-code@0.33.4(astro@4.5.4):
     resolution: {integrity: sha512-PtXLjd89WBA1WsDYlt3V1LZs9Pa8FFoXilaGDSyfxtbYJ2OPHjWh2JJvCiXmfXmY3HkPJ2oW9Jjo6om5vUlVcg==}
     peerDependencies:
       astro: ^3.3.0 || ^4.0.0-beta
     dependencies:
-      astro: 4.5.3(typescript@5.4.2)
+      astro: 4.5.4(typescript@5.4.2)
       hast-util-to-html: 8.0.4
       remark-expressive-code: 0.33.4
     dev: false
 
-  /astro@4.5.3(typescript@5.4.2):
-    resolution: {integrity: sha512-MEiLeAr3+THeadTZCQ4U+DI9VTTUZdYrPEPedSKmQwqnkiPkLjpLgx4yOcyH7Yp4t57+SWiC6W0rt7lPGM36Fg==}
+  /astro@4.5.4(typescript@5.4.2):
+    resolution: {integrity: sha512-qwMyBn36wXvaCzdCmdbyCxLQGG5hTa3saNdHdqS20Yn1b7Z7oqqcWOb2UjFuq6O8dFqZxU8Hq0/pGFscvsYtJA==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
     dependencies:
@@ -2966,8 +2970,8 @@ packages:
       is-decimal: 2.0.1
     dev: false
 
-  /binary-extensions@2.2.0:
-    resolution: {integrity: sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==}
+  /binary-extensions@2.3.0:
+    resolution: {integrity: sha512-Ceh+7ox5qe7LJuLHoY0feh3pHuUDHAcRUeyL2VYghZwfpkNIy/+8Ocg0a3UuSoYzavmylwuLWQOf3hl0jjMMIw==}
     engines: {node: '>=8'}
 
   /bl@4.1.0:
@@ -3995,7 +3999,7 @@ packages:
     resolution: {integrity: sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw==}
     engines: {node: '>=8'}
     dependencies:
-      binary-extensions: 2.2.0
+      binary-extensions: 2.3.0
 
   /is-buffer@2.0.5:
     resolution: {integrity: sha512-i2R6zNFDwgEHJyQUtJEk0XFi1i0dPFn/oqjK3/vPCcDeJvW5NQ83V8QbicfF1SupOaB0h8ntgBC2YiE7dfyctQ==}
@@ -5815,15 +5819,15 @@ packages:
   /sprintf-js@1.0.3:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
 
-  /starlight-blog@0.5.1(@astrojs/starlight@0.21.1)(astro@4.5.3):
+  /starlight-blog@0.5.1(@astrojs/starlight@0.21.1)(astro@4.5.4):
     resolution: {integrity: sha512-3zJ7sJDe3rsE+9vJU/hDOKpKXEJwEMN0ha24DmKmKPKN5mtrN43p/ZJdrhRpb+PyJoJR4eNAtMLNgFyEu40cGA==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       '@astrojs/starlight': '>=0.19.0'
       astro: '>=4.2.7'
     dependencies:
-      '@astrojs/starlight': 0.21.1(astro@4.5.3)
-      astro: 4.5.3(typescript@5.4.2)
+      '@astrojs/starlight': 0.21.1(astro@4.5.4)
+      astro: 4.5.4(typescript@5.4.2)
       github-slugger: 2.0.0
     dev: false
 
