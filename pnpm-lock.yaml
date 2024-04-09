@@ -16,7 +16,7 @@ dependencies:
     version: 0.21.4(astro@4.5.16)
   '@types/react':
     specifier: ^18.2.47
-    version: 18.2.74
+    version: 18.2.75
   '@types/react-dom':
     specifier: ^18.2.18
     version: 18.2.24
@@ -48,7 +48,7 @@ devDependencies:
     version: 0.37.2(typescript@5.4.4)
   '@park-ui/panda-preset':
     specifier: 0.36.1
-    version: 0.36.1(@internationalized/date@3.5.2)(@pandacss/dev@0.37.2)(@pandacss/types@0.37.1)
+    version: 0.36.1(@internationalized/date@3.5.2)(@pandacss/dev@0.37.2)(@pandacss/types@0.37.2)
   prettier:
     specifier: 3.2.5
     version: 3.2.5
@@ -1702,15 +1702,11 @@ packages:
     resolution: {integrity: sha512-59K5yAILCemzi2y3uyxcd42DiP3+ahjUa3FcFXzCImROPdPoXMR49QVv4yPYoG0wYxMHeA+RDtJVaAV43bwHnw==}
     dev: true
 
-  /@pandacss/types@0.37.1:
-    resolution: {integrity: sha512-JaI/UD1FAiHhaq81PgyltXB/J8eA+WHyZG3B7KmTvkqVz2S6r0kSp6w7Wh0D9xwykjh+OfBkNFqLCKFBQ1deuA==}
-    dev: true
-
   /@pandacss/types@0.37.2:
     resolution: {integrity: sha512-1HYXrGSngm6wrRyiiEtF2nHl7sfVD9HDc0BVN+qD1Gpjo7uniz99jz9oYOPAVNAbPoll28ltx828Falh4XgvYg==}
     dev: true
 
-  /@park-ui/panda-preset@0.36.1(@internationalized/date@3.5.2)(@pandacss/dev@0.37.2)(@pandacss/types@0.37.1):
+  /@park-ui/panda-preset@0.36.1(@internationalized/date@3.5.2)(@pandacss/dev@0.37.2)(@pandacss/types@0.37.2):
     resolution: {integrity: sha512-R5qDv9ky78+LLDXVObCSIYt26UNoJLUATTNHVvekkAJwls1YxScyvqa8W8tpWadARPnKk0J77O14qwIa4h1anw==}
     peerDependencies:
       '@pandacss/dev': '>0.22.0'
@@ -1718,7 +1714,7 @@ packages:
     dependencies:
       '@ark-ui/anatomy': 2.3.1(@internationalized/date@3.5.2)
       '@pandacss/dev': 0.37.2(typescript@5.4.4)
-      '@pandacss/types': 0.37.1
+      '@pandacss/types': 0.37.2
       '@radix-ui/colors': 3.0.0
       deepmerge: 4.3.1
       ts-pattern: 5.0.8
@@ -1948,11 +1944,11 @@ packages:
   /@types/react-dom@18.2.24:
     resolution: {integrity: sha512-cN6upcKd8zkGy4HU9F1+/s98Hrp6D4MOcippK4PoE8OZRngohHZpbJn1GsaDLz87MqvHNoT13nHvNqM9ocRHZg==}
     dependencies:
-      '@types/react': 18.2.74
+      '@types/react': 18.2.75
     dev: false
 
-  /@types/react@18.2.74:
-    resolution: {integrity: sha512-9AEqNZZyBx8OdZpxzQlaFEVCSFUM2YXJH46yPOiOpm078k6ZLOCcuAzGum/zK8YBwY+dbahVNbHrbgrAwIRlqw==}
+  /@types/react@18.2.75:
+    resolution: {integrity: sha512-+DNnF7yc5y0bHkBTiLKqXFe+L4B3nvOphiMY3tuA5X10esmjqk7smyBZzbGTy2vsiy/Bnzj8yFIBL8xhRacoOg==}
     dependencies:
       '@types/prop-types': 15.7.12
       csstype: 3.1.3
