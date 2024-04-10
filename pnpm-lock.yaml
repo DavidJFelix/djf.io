@@ -47,8 +47,8 @@ devDependencies:
     specifier: 0.37.2
     version: 0.37.2(typescript@5.4.4)
   '@park-ui/panda-preset':
-    specifier: 0.36.1
-    version: 0.36.1(@internationalized/date@3.5.2)(@pandacss/dev@0.37.2)(@pandacss/types@0.37.2)
+    specifier: 0.37.0
+    version: 0.37.0(@internationalized/date@3.5.2)(@pandacss/dev@0.37.2)(@pandacss/types@0.37.2)
   prettier:
     specifier: 3.2.5
     version: 3.2.5
@@ -1706,8 +1706,8 @@ packages:
     resolution: {integrity: sha512-1HYXrGSngm6wrRyiiEtF2nHl7sfVD9HDc0BVN+qD1Gpjo7uniz99jz9oYOPAVNAbPoll28ltx828Falh4XgvYg==}
     dev: true
 
-  /@park-ui/panda-preset@0.36.1(@internationalized/date@3.5.2)(@pandacss/dev@0.37.2)(@pandacss/types@0.37.2):
-    resolution: {integrity: sha512-R5qDv9ky78+LLDXVObCSIYt26UNoJLUATTNHVvekkAJwls1YxScyvqa8W8tpWadARPnKk0J77O14qwIa4h1anw==}
+  /@park-ui/panda-preset@0.37.0(@internationalized/date@3.5.2)(@pandacss/dev@0.37.2)(@pandacss/types@0.37.2):
+    resolution: {integrity: sha512-rLJErd5zVmOiXZsbSenb6jHs5Pc6pKPOcCgNUPaxIrUd+8tP+DnokmeiEBnAmtJO35QIHKEX4zDW9UpxEHeuRQ==}
     peerDependencies:
       '@pandacss/dev': '>0.22.0'
       '@pandacss/types': '>0.22.0'
@@ -1717,7 +1717,7 @@ packages:
       '@pandacss/types': 0.37.2
       '@radix-ui/colors': 3.0.0
       deepmerge: 4.3.1
-      ts-pattern: 5.0.8
+      ts-pattern: 5.1.1
     transitivePeerDependencies:
       - '@internationalized/date'
     dev: true
@@ -6071,6 +6071,10 @@ packages:
 
   /ts-pattern@5.0.8:
     resolution: {integrity: sha512-aafbuAQOTEeWmA7wtcL94w6I89EgLD7F+IlWkr596wYxeb0oveWDO5dQpv85YP0CGbxXT/qXBIeV6IYLcoZ2uA==}
+    dev: true
+
+  /ts-pattern@5.1.1:
+    resolution: {integrity: sha512-i+owkHr5RYdQxj8olUgRrqpiWH9x27PuWVfXwDmJ/n/CoF/SAa7WW1i2oUpPDMQpJ4U+bGRUcZkVq7i1m3zFCg==}
     dev: true
 
   /tsconfck@2.1.2(typescript@5.4.4):
