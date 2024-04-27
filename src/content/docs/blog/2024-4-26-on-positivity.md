@@ -12,10 +12,7 @@ tags:
   - personal
 readingTime: 3m
 hero:
-  tagline:
-  image:
-    file: ../../../assets/on-positivity-hero.png
-    alt: 'ChatGPT Generated image with the following prompt: '
+  tagline: Positivity
 ---
 
 I think I’m often seen as a “hater,” and I worry about this perception. I hold some strong opinions about popular technologies. I’m not afraid to voice those opinions when I hear strangers espousing their love for Kubernetes or how gRPC changed everything for their team. I’ve been on the other side of this kind of discussion in online communities, especially when it comes to serverless. My reaction has been to shut out this type of negativity and dismiss it as misinformed, jaded, grumpy, or argumentative. I don’t think that’s fair.
