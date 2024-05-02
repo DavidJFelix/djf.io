@@ -16,7 +16,7 @@ importers:
         version: 0.5.10(prettier-plugin-astro@0.13.0)(prettier@3.2.5)(typescript@5.4.5)
       '@astrojs/starlight':
         specifier: ^0.22.0
-        version: 0.22.0(astro@4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5))
+        version: 0.22.1(astro@4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5))
       '@types/react':
         specifier: ^18.2.47
         version: 18.3.1
@@ -37,7 +37,7 @@ importers:
         version: 0.33.3
       starlight-blog:
         specifier: ^0.6.0
-        version: 0.6.0(@astrojs/starlight@0.22.0(astro@4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5)))(astro@4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5))
+        version: 0.6.0(@astrojs/starlight@0.22.1(astro@4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5)))(astro@4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5))
       typescript:
         specifier: ^5.3.3
         version: 5.4.5
@@ -97,15 +97,12 @@ packages:
       prettier-plugin-astro:
         optional: true
 
-  '@astrojs/markdown-remark@5.0.0':
-    resolution: {integrity: sha512-QBXbxXZamVRoqCNN2gjDXa7qYPUkJZq7KYFfg3DX7rze3QL6xiz4N+Wg202dNPRaIkQa16BV6D8+EHibQFubRg==}
-
   '@astrojs/markdown-remark@5.1.0':
     resolution: {integrity: sha512-S6Z3K2hOB7MfjeDoHsotnP/q2UsnEDB8NlNAaCjMDsGBZfTUbWxyLW3CaphEWw08f6KLZi2ibK9yC3BaMhh2NQ==}
 
-  '@astrojs/mdx@2.2.4':
-    resolution: {integrity: sha512-eXCmftMsWj4vTECrc4vgdaXrA8xIvrmJ9rM37BZNK5anQ2PunUm9N8wbnK2VVTE0CAmW5U8v9y3IGps2RYGUvQ==}
-    engines: {node: '>=18.14.1'}
+  '@astrojs/mdx@2.3.1':
+    resolution: {integrity: sha512-BOQFKD2Pi9cRntNQJlpF2fh4xV8doNpmVy9NKI95r4jsitrY4X5aTOhAowi+fkQgP/zW1A4HwCyQ6Pdam6z8zQ==}
+    engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
     peerDependencies:
       astro: ^4.0.0
 
@@ -113,11 +110,11 @@ packages:
     resolution: {integrity: sha512-Z9IYjuXSArkAUx3N6xj6+Bnvx8OdUSHA8YoOgyepp3+zJmtVYJIl/I18GozdJVW1p5u/CNpl3Km7/gwTJK85cw==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
 
-  '@astrojs/sitemap@3.1.2':
-    resolution: {integrity: sha512-FxOJldIl5ltZ5CNjocQxHkAO9orwHBjqtaU28o4smobp9vowS0nbGp+I9CrPxkzWdl1crSDm9vjL9tnvG1DSug==}
+  '@astrojs/sitemap@3.1.4':
+    resolution: {integrity: sha512-po8CqDCK14O6phU1mB5C8SyVLyQEa+7pJM8oXxs1mVh8DgvxxaA5E7lak1vzOmBcyyyHBW32jakGqNYc66sBRw==}
 
-  '@astrojs/starlight@0.22.0':
-    resolution: {integrity: sha512-R1cMm8Z33JkJNSjquVLMbeouMu6VyKafyBmkpKUEr2YD9ceaYqVM44YFBmqYdsrAooPwEZK4UB2Q65sRLvKqvg==}
+  '@astrojs/starlight@0.22.1':
+    resolution: {integrity: sha512-RATQZ4AVr78K30rupsNGTC+JLtHNimHpBtbslzC1bPoaG/TetTi6iUX8dQhHARKstq6sSBatYkZJcX3CGgzS2w==}
     peerDependencies:
       astro: ^4.2.7
 
@@ -406,17 +403,17 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@expressive-code/core@0.35.2':
-    resolution: {integrity: sha512-lInKOxMvcvVTrRB8qjsH6PDQ5+rz9o3lyoUh+2xxvdWmnpcTE7JVWWcVfDrLfEXZb+6KQWlWqD0J50u1+xe8Rg==}
+  '@expressive-code/core@0.35.3':
+    resolution: {integrity: sha512-SYamcarAjufYhbuK/kfvJSvAXLsfnM7DKc78R7Dq4B73R5bKQK2m5zR0l57tXr4yp2C5Z8lu5xZncdwWxcmPdg==}
 
-  '@expressive-code/plugin-frames@0.35.2':
-    resolution: {integrity: sha512-ABj9WQinforkAvBzCTOd3puuGWaKm1mzts7yck1YNyfh4uQGLxabvjKIj69WYA75+Ccd0edy0b1QzIqwecJpzg==}
+  '@expressive-code/plugin-frames@0.35.3':
+    resolution: {integrity: sha512-QYytMq6IsaHgTofQ5b6d+CnbxkqLdikSF2hC+IL/ZZwPYHYZoUlmjIwmJZhY4/hHqJGELrtZsyVdlt06RntgmA==}
 
-  '@expressive-code/plugin-shiki@0.35.2':
-    resolution: {integrity: sha512-V+pAhT3m0xAbwHvDT9DLpZLkksYKeNNTDIEHE0VHoZfw9IibvG6QcrH8FjMQnxv1DfvWjkYV4wob7/TZKlGU6w==}
+  '@expressive-code/plugin-shiki@0.35.3':
+    resolution: {integrity: sha512-aFQBPepv0zhVXqJFAvfQ4vXYv/meJKiqmEEKSxdjAfwXllIV49PDlnGEXmbGYjR4hUQQjbfDgzAbrbfePc3YVQ==}
 
-  '@expressive-code/plugin-text-markers@0.35.2':
-    resolution: {integrity: sha512-YD/QhTBoCGXWCE40BD3Wg1XXAR0eVVFYL0TZaD8JjdRqVDmmRtZmhiG+/luXfbe9xZy5qEw4ZFXiQrJkUH6DJQ==}
+  '@expressive-code/plugin-text-markers@0.35.3':
+    resolution: {integrity: sha512-gDdnQrfDRXw5Y+PKHJDkpAUdf2pthYOthGcgy3JB8GOTQ3EL1h+755Ct/bGc4MR6jn+dgnQP47uHMWQaccvN6Q==}
 
   '@floating-ui/core@1.6.0':
     resolution: {integrity: sha512-PcF++MykgmTj3CIyOQbKA/hDzOAiqI3mhuoN44WRCopIs1sgoDoU4oty4Jtqaj/y3oDU6fnVSm4QG0a3t5i0+g==}
@@ -745,6 +742,9 @@ packages:
   '@shikijs/core@1.3.0':
     resolution: {integrity: sha512-7fedsBfuILDTBmrYZNFI8B6ATTxhQAasUHllHmjvSZPnoq4bULWoTpHwmuQvZ8Aq03/tAa2IGo6RXqWtHdWaCA==}
 
+  '@shikijs/core@1.4.0':
+    resolution: {integrity: sha512-CxpKLntAi64h3j+TwWqVIQObPTED0FyXLHTTh3MKXtqiQNn2JGcMQQ362LftDbc9kYbDtrksNMNoVmVXzKFYUQ==}
+
   '@swc/helpers@0.5.6':
     resolution: {integrity: sha512-aYX01Ke9hunpoCexYAgQucEpARGQ5w/cqHFrIR+e9gdKb1QWTsVJuTJ2ozQzIAxLyRQe/m+2RqzkyOOGiMKRQA==}
 
@@ -784,8 +784,8 @@ packages:
   '@types/mdast@4.0.3':
     resolution: {integrity: sha512-LsjtqsyF+d2/yFOYaN22dHZI1Cpwkrj+g06G8+qtUKlhovPW89YhqSnfKtMbkgmEtYpH2gydRNULd6y8mciAFg==}
 
-  '@types/mdx@2.0.12':
-    resolution: {integrity: sha512-H9VZ9YqE+H28FQVchC83RCs5xQ2J7mAAv6qdDEaWmXEVl3OpdH+xfrSUzQ1lp7U7oSTRZ0RvW08ASPJsYBi7Cw==}
+  '@types/mdx@2.0.13':
+    resolution: {integrity: sha512-+OWZQfAYyio6YkJb3HLxDrvnx6SWWDbC0zVPfBRzUk0/nqoDyf6dNxQi3eArPe8rJ473nobTMQ/8Zk+LxJ+Yuw==}
 
   '@types/ms@0.7.34':
     resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
@@ -1115,8 +1115,8 @@ packages:
     resolution: {integrity: sha512-ISvCdHdlTDlH5IpxQJIex7BWBywFWgjJSVdwst+/iQCoEYnyOaQ95+X1JGshuBjGp6nxKUy1jMgE3zPqN7fQdg==}
     hasBin: true
 
-  astro-expressive-code@0.35.2:
-    resolution: {integrity: sha512-euLMzMBRyNjniHIdla2yjBEFVKbYJxo5jdzsFB/2M/nf3hgKs9o6VU41HEvKEnk5Pf2NhFtgUGGwrIrjwuHhyA==}
+  astro-expressive-code@0.35.3:
+    resolution: {integrity: sha512-f1L1m3J3EzZHDEox6TXmuKo5fTSbaNxE/HU0S0UQmvlCowtOKnU/LOsoDwsbQSYGKz+fdLRPsCjFMiKqEoyfcw==}
     peerDependencies:
       astro: ^4.0.0-beta || ^3.3.0
 
@@ -1381,6 +1381,9 @@ packages:
   es-module-lexer@1.5.0:
     resolution: {integrity: sha512-pqrTKmwEIgafsYZAGw9kszYzmagcE/n4dbgwGWLEXg7J4QFJVQRBld8j3Q3GNez79jzxZshq0bcT962QHOghjw==}
 
+  es-module-lexer@1.5.2:
+    resolution: {integrity: sha512-l60ETUTmLqbVbVHv1J4/qj+M8nq7AwMzEcg3kmJDt9dCNrTk+yHcYFf/Kw75pMDwd9mPcIGCG5LcS20SxYRzFA==}
+
   esbuild@0.20.2:
     resolution: {integrity: sha512-WdOOppmUNU+IbZ0PaDiTst80zjnrOkyJNHoKupIcVyU8Lvla3Ugx94VzkQ32Ijqd7UhHJy75gNWDMUekcrSJ6g==}
     engines: {node: '>=12'}
@@ -1431,8 +1434,8 @@ packages:
     resolution: {integrity: sha512-VyhnebXciFV2DESc+p6B+y0LjSm0krU4OgJN44qFAhBY0TJ+1V61tYD2+wHusZ6F9n5K+vl8k0sTy7PEfV4qpg==}
     engines: {node: '>=16.17'}
 
-  expressive-code@0.35.2:
-    resolution: {integrity: sha512-Cc4W+DqnnULYnia42UrfRlqshCL2vci/X9EUSutiz6PK6+vNNXrG3c0BQmBJr+nRj0lde9F/O1IxZXAK9UBZ0w==}
+  expressive-code@0.35.3:
+    resolution: {integrity: sha512-XjWWUCxS4uQjPoRM98R7SNWWIYlFEaOeHm1piWv+c7coHCekuWno81thsc3g/UJ+DajNtOEsIQIAAcsBQZ8LMg==}
 
   extend-shallow@2.0.1:
     resolution: {integrity: sha512-zCnTtlxNoAiDc3gqY2aYAWFx7XWWiasuF2K8Me5WbN8otHKTUKBwjPtNpRs/rbUZm7KxWAaNj7P1a/p52GbVug==}
@@ -2337,8 +2340,8 @@ packages:
     resolution: {integrity: sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==}
     engines: {node: '>=8.10.0'}
 
-  rehype-expressive-code@0.35.2:
-    resolution: {integrity: sha512-ydaCdmRW9mPDt8TUh69HzS7E7kQZcwi0Z4nZyWTUjX3nVPx3kA8TAHe/oWjtMGSsIP+7xAybrCpNNNEMXmzWqQ==}
+  rehype-expressive-code@0.35.3:
+    resolution: {integrity: sha512-kj43Rg+WzYUs8RRr6XyBr60pnrIZEgbmn9yJoV6qka1UDpcx7r8icn6Q2uSAgaLtlEUy+HCPgQJraOZrA53LOQ==}
 
   rehype-parse@9.0.0:
     resolution: {integrity: sha512-WG7nfvmWWkCR++KEkZevZb/uw41E8TsH4DsY9UxsTbIXCVGbAs4S+r8FrQ+OtH5EEQAs+5UxKC42VinkmpA1Yw==}
@@ -2453,6 +2456,9 @@ packages:
   shiki@1.3.0:
     resolution: {integrity: sha512-9aNdQy/etMXctnPzsje1h1XIGm9YfRcSksKOGqZWXA/qP9G18/8fpz5Bjpma8bOgz3tqIpjERAd6/lLjFyzoww==}
 
+  shiki@1.4.0:
+    resolution: {integrity: sha512-5WIn0OL8PWm7JhnTwRWXniy6eEDY234mRrERVlFa646V2ErQqwIFd2UML7e0Pq9eqSKLoMa3Ke+xbsF+DAuy+Q==}
+
   signal-exit@3.0.7:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
 
@@ -2499,6 +2505,9 @@ packages:
   stdin-discarder@0.2.2:
     resolution: {integrity: sha512-UhDfHmA92YAlNnCfhmq0VeNL5bDbiZGg7sZ2IvPsXubGkiNa9EC+tUTsjBRsYUAz87btI6/1wf4XoVvQ3uRnmQ==}
     engines: {node: '>=18'}
+
+  stream-replace-string@2.0.0:
+    resolution: {integrity: sha512-TlnjJ1C0QrmxRNrON00JvaFFlNh5TTG00APw23j74ET7gkQpTASi6/L2fuiav8pzK715HXtUeClpBTw2NPSn6w==}
 
   string-width@4.2.3:
     resolution: {integrity: sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==}
@@ -2901,6 +2910,9 @@ packages:
   zod@3.23.4:
     resolution: {integrity: sha512-/AtWOKbBgjzEYYQRNfoGKHObgfAZag6qUJX1VbHo2PRBgS+wfWagEY2mizjfyAPcGesrJOcx/wcl0L9WnVrHFw==}
 
+  zod@3.23.5:
+    resolution: {integrity: sha512-fkwiq0VIQTksNNA131rDOsVJcns0pfVUjHzLrNBiF/O/Xxb5lQyEXkhZWcJ7npWsYlvs+h0jFWXXy4X46Em1JA==}
+
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
 
@@ -3039,29 +3051,6 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
-  '@astrojs/markdown-remark@5.0.0':
-    dependencies:
-      '@astrojs/prism': 3.1.0
-      github-slugger: 2.0.0
-      hast-util-from-html: 2.0.1
-      hast-util-to-text: 4.0.2
-      import-meta-resolve: 4.0.0
-      mdast-util-definitions: 6.0.0
-      rehype-raw: 7.0.0
-      rehype-stringify: 10.0.0
-      remark-gfm: 4.0.0
-      remark-parse: 11.0.0
-      remark-rehype: 11.1.0
-      remark-smartypants: 2.1.0
-      shiki: 1.3.0
-      unified: 11.0.4
-      unist-util-remove-position: 5.0.0
-      unist-util-visit: 5.0.0
-      unist-util-visit-parents: 6.0.1
-      vfile: 6.0.1
-    transitivePeerDependencies:
-      - supports-color
-
   '@astrojs/markdown-remark@5.1.0':
     dependencies:
       '@astrojs/prism': 3.1.0
@@ -3085,13 +3074,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@2.2.4(astro@4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5))':
+  '@astrojs/mdx@2.3.1(astro@4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5))':
     dependencies:
-      '@astrojs/markdown-remark': 5.0.0
+      '@astrojs/markdown-remark': 5.1.0
       '@mdx-js/mdx': 3.0.1
       acorn: 8.11.3
       astro: 4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5)
-      es-module-lexer: 1.5.0
+      es-module-lexer: 1.5.2
       estree-util-visit: 2.0.0
       github-slugger: 2.0.0
       gray-matter: 4.0.3
@@ -3110,20 +3099,21 @@ snapshots:
     dependencies:
       prismjs: 1.29.0
 
-  '@astrojs/sitemap@3.1.2':
+  '@astrojs/sitemap@3.1.4':
     dependencies:
       sitemap: 7.1.1
-      zod: 3.23.4
+      stream-replace-string: 2.0.0
+      zod: 3.23.5
 
-  '@astrojs/starlight@0.22.0(astro@4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5))':
+  '@astrojs/starlight@0.22.1(astro@4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5))':
     dependencies:
-      '@astrojs/mdx': 2.2.4(astro@4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5))
-      '@astrojs/sitemap': 3.1.2
+      '@astrojs/mdx': 2.3.1(astro@4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5))
+      '@astrojs/sitemap': 3.1.4
       '@pagefind/default-ui': 1.1.0
       '@types/hast': 3.0.4
       '@types/mdast': 4.0.3
       astro: 4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5)
-      astro-expressive-code: 0.35.2(astro@4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5))
+      astro-expressive-code: 0.35.3(astro@4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5))
       bcp-47: 2.1.0
       hast-util-from-html: 2.0.1
       hast-util-select: 6.0.2
@@ -3405,7 +3395,7 @@ snapshots:
   '@esbuild/win32-x64@0.20.2':
     optional: true
 
-  '@expressive-code/core@0.35.2':
+  '@expressive-code/core@0.35.3':
     dependencies:
       '@ctrl/tinycolor': 4.1.0
       hast-util-select: 6.0.2
@@ -3417,18 +3407,18 @@ snapshots:
       unist-util-visit: 5.0.0
       unist-util-visit-parents: 6.0.1
 
-  '@expressive-code/plugin-frames@0.35.2':
+  '@expressive-code/plugin-frames@0.35.3':
     dependencies:
-      '@expressive-code/core': 0.35.2
+      '@expressive-code/core': 0.35.3
 
-  '@expressive-code/plugin-shiki@0.35.2':
+  '@expressive-code/plugin-shiki@0.35.3':
     dependencies:
-      '@expressive-code/core': 0.35.2
-      shiki: 1.3.0
+      '@expressive-code/core': 0.35.3
+      shiki: 1.4.0
 
-  '@expressive-code/plugin-text-markers@0.35.2':
+  '@expressive-code/plugin-text-markers@0.35.3':
     dependencies:
-      '@expressive-code/core': 0.35.2
+      '@expressive-code/core': 0.35.3
 
   '@floating-ui/core@1.6.0':
     dependencies:
@@ -3546,7 +3536,7 @@ snapshots:
       '@types/estree': 1.0.5
       '@types/estree-jsx': 1.0.5
       '@types/hast': 3.0.4
-      '@types/mdx': 2.0.12
+      '@types/mdx': 2.0.13
       collapse-white-space: 2.1.0
       devlop: 1.1.0
       estree-util-build-jsx: 3.0.1
@@ -3821,6 +3811,8 @@ snapshots:
 
   '@shikijs/core@1.3.0': {}
 
+  '@shikijs/core@1.4.0': {}
+
   '@swc/helpers@0.5.6':
     dependencies:
       tslib: 2.6.2
@@ -3877,7 +3869,7 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.2
 
-  '@types/mdx@2.0.12': {}
+  '@types/mdx@2.0.13': {}
 
   '@types/ms@0.7.34': {}
 
@@ -4504,10 +4496,10 @@ snapshots:
 
   astring@1.8.6: {}
 
-  astro-expressive-code@0.35.2(astro@4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5)):
+  astro-expressive-code@0.35.3(astro@4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5)):
     dependencies:
       astro: 4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5)
-      rehype-expressive-code: 0.35.2
+      rehype-expressive-code: 0.35.3
 
   astro-remote@0.3.2:
     dependencies:
@@ -4816,6 +4808,8 @@ snapshots:
 
   es-module-lexer@1.5.0: {}
 
+  es-module-lexer@1.5.2: {}
+
   esbuild@0.20.2:
     optionalDependencies:
       '@esbuild/aix-ppc64': 0.20.2
@@ -4894,12 +4888,12 @@ snapshots:
       signal-exit: 4.1.0
       strip-final-newline: 3.0.0
 
-  expressive-code@0.35.2:
+  expressive-code@0.35.3:
     dependencies:
-      '@expressive-code/core': 0.35.2
-      '@expressive-code/plugin-frames': 0.35.2
-      '@expressive-code/plugin-shiki': 0.35.2
-      '@expressive-code/plugin-text-markers': 0.35.2
+      '@expressive-code/core': 0.35.3
+      '@expressive-code/plugin-frames': 0.35.3
+      '@expressive-code/plugin-shiki': 0.35.3
+      '@expressive-code/plugin-text-markers': 0.35.3
 
   extend-shallow@2.0.1:
     dependencies:
@@ -6129,9 +6123,9 @@ snapshots:
     dependencies:
       picomatch: 2.3.1
 
-  rehype-expressive-code@0.35.2:
+  rehype-expressive-code@0.35.3:
     dependencies:
-      expressive-code: 0.35.2
+      expressive-code: 0.35.3
 
   rehype-parse@9.0.0:
     dependencies:
@@ -6343,6 +6337,10 @@ snapshots:
     dependencies:
       '@shikijs/core': 1.3.0
 
+  shiki@1.4.0:
+    dependencies:
+      '@shikijs/core': 1.4.0
+
   signal-exit@3.0.7: {}
 
   signal-exit@4.1.0: {}
@@ -6370,14 +6368,16 @@ snapshots:
 
   sprintf-js@1.0.3: {}
 
-  starlight-blog@0.6.0(@astrojs/starlight@0.22.0(astro@4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5)))(astro@4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5)):
+  starlight-blog@0.6.0(@astrojs/starlight@0.22.1(astro@4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5)))(astro@4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5)):
     dependencies:
-      '@astrojs/starlight': 0.22.0(astro@4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5))
+      '@astrojs/starlight': 0.22.1(astro@4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5))
       astro: 4.7.0(@types/node@17.0.45)(lightningcss@1.23.0)(typescript@5.4.5)
       astro-remote: 0.3.2
       github-slugger: 2.0.0
 
   stdin-discarder@0.2.2: {}
+
+  stream-replace-string@2.0.0: {}
 
   string-width@4.2.3:
     dependencies:
@@ -6767,5 +6767,7 @@ snapshots:
       zod: 3.23.4
 
   zod@3.23.4: {}
+
+  zod@3.23.5: {}
 
   zwitch@2.0.4: {}
