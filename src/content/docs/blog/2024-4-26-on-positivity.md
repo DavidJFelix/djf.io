@@ -55,6 +55,7 @@ I heard an uncredited quote recently that stuck with me:
 
 While I don't necessarily think every critic desires to be remembered or cares about their accolades, I do think that this is valid meta-criticism for critics.
 If you're truly an optimist and not just a hater, and your passion was worth the attention and effort, you should make sure that your attention is heard.
-To me, this means talking with your feet, exemplifying your solution, and leading a change that you wish would be made.
-Our time is finite and we can't always do this, but if you want to be heard over the noise, I think that it's necessary to offer more than suggestions.
+To me, this means making your intentions clear, expressing why you care and helping a reader understand that your critique comes from a would-be user, not a detractor or dismissive curmudgeon.
+It also means talking with your feet, exemplifying your solution, and leading a change that you wish would be made.
+Our time is finite and we can't always do this, but if you want to be heard over the noise, I think that it's often necessary to offer more than pot-shots from the sidelines.
 Build solutions; measure results; prove that you're right.
