@@ -10,13 +10,13 @@ importers:
     dependencies:
       '@ark-ui/react':
         specifier: ^3.0.0
-        version: 3.2.0(@internationalized/date@3.5.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 3.2.0(@internationalized/date@3.5.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@astrojs/check':
         specifier: ^0.7.0
         version: 0.7.0(prettier-plugin-astro@0.14.0)(prettier@3.3.1)(typescript@5.4.5)
       '@astrojs/starlight':
         specifier: ^0.24.0
-        version: 0.24.0(astro@4.9.3(lightningcss@1.23.0)(typescript@5.4.5))
+        version: 0.24.0(astro@4.10.0(lightningcss@1.23.0)(typescript@5.4.5))
       '@types/react':
         specifier: ^18.2.47
         version: 18.3.3
@@ -25,7 +25,7 @@ importers:
         version: 18.3.0
       astro:
         specifier: ^4.0.1
-        version: 4.9.3(lightningcss@1.23.0)(typescript@5.4.5)
+        version: 4.10.0(lightningcss@1.23.0)(typescript@5.4.5)
       react:
         specifier: ^18.2.0
         version: 18.3.1
@@ -37,7 +37,7 @@ importers:
         version: 0.33.4
       starlight-blog:
         specifier: ^0.8.0
-        version: 0.8.3(@astrojs/starlight@0.24.0(astro@4.9.3(lightningcss@1.23.0)(typescript@5.4.5)))(astro@4.9.3(lightningcss@1.23.0)(typescript@5.4.5))
+        version: 0.8.3(@astrojs/starlight@0.24.0(astro@4.10.0(lightningcss@1.23.0)(typescript@5.4.5)))(astro@4.10.0(lightningcss@1.23.0)(typescript@5.4.5))
       typescript:
         specifier: ^5.3.3
         version: 5.4.5
@@ -47,7 +47,7 @@ importers:
         version: 0.40.1(typescript@5.4.5)
       '@park-ui/panda-preset':
         specifier: 0.37.1
-        version: 0.37.1(@internationalized/date@3.5.2)(@pandacss/dev@0.40.1(typescript@5.4.5))(@pandacss/types@0.40.1)
+        version: 0.37.1(@internationalized/date@3.5.4)(@pandacss/dev@0.40.1(typescript@5.4.5))(@pandacss/types@0.40.1)
       prettier:
         specifier: 3.3.1
         version: 3.3.1
@@ -1653,8 +1653,8 @@ packages:
     resolution: {integrity: sha512-Xwm6Y+ldQEnDB2l1WwVqeUs3QvUX8LtJWnovpXlf8xhpicPu159jXOhDbHZS9wilGO/+/nR67A1qskF8pDvdGQ==}
     engines: {node: '>=18.14.1'}
 
-  astro@4.9.3:
-    resolution: {integrity: sha512-LhiKZMee56GI7+zIt15bXZVX4JSnj4syTrQdkYNgE+Y0udMad0x8RgJGzc2NMOK31e6w/SL+NFSvnt/d1kgs5w==}
+  astro@4.10.0:
+    resolution: {integrity: sha512-UNVGGZIwdEPIUumcwgIQnd90b4/PslReY9q3xy/Q6bIq/kvK0duIWCbhFPwf06xu+1tExziP9Jl+klvLXM0LfA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -3498,7 +3498,7 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@ark-ui/anatomy@2.3.1(@internationalized/date@3.5.2)':
+  '@ark-ui/anatomy@2.3.1(@internationalized/date@3.5.4)':
     dependencies:
       '@zag-js/accordion': 0.38.0
       '@zag-js/anatomy': 0.38.0
@@ -3511,7 +3511,7 @@ snapshots:
       '@zag-js/color-utils': 0.38.0
       '@zag-js/combobox': 0.38.0
       '@zag-js/date-picker': 0.38.0
-      '@zag-js/date-utils': 0.38.0(@internationalized/date@3.5.2)
+      '@zag-js/date-utils': 0.38.0(@internationalized/date@3.5.4)
       '@zag-js/dialog': 0.38.0
       '@zag-js/editable': 0.38.0
       '@zag-js/file-upload': 0.38.0
@@ -3538,7 +3538,7 @@ snapshots:
     transitivePeerDependencies:
       - '@internationalized/date'
 
-  '@ark-ui/anatomy@3.2.0(@internationalized/date@3.5.2)':
+  '@ark-ui/anatomy@3.2.0(@internationalized/date@3.5.4)':
     dependencies:
       '@zag-js/accordion': 0.51.1
       '@zag-js/anatomy': 0.51.1
@@ -3551,7 +3551,7 @@ snapshots:
       '@zag-js/color-utils': 0.51.1
       '@zag-js/combobox': 0.51.1
       '@zag-js/date-picker': 0.51.1
-      '@zag-js/date-utils': 0.51.1(@internationalized/date@3.5.2)
+      '@zag-js/date-utils': 0.51.1(@internationalized/date@3.5.4)
       '@zag-js/dialog': 0.51.1
       '@zag-js/editable': 0.51.1
       '@zag-js/file-upload': 0.51.1
@@ -3578,9 +3578,9 @@ snapshots:
     transitivePeerDependencies:
       - '@internationalized/date'
 
-  '@ark-ui/react@3.2.0(@internationalized/date@3.5.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@ark-ui/react@3.2.0(@internationalized/date@3.5.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@ark-ui/anatomy': 3.2.0(@internationalized/date@3.5.2)
+      '@ark-ui/anatomy': 3.2.0(@internationalized/date@3.5.4)
       '@zag-js/accordion': 0.54.0
       '@zag-js/avatar': 0.54.0
       '@zag-js/carousel': 0.54.0
@@ -3592,7 +3592,7 @@ snapshots:
       '@zag-js/combobox': 0.54.0
       '@zag-js/core': 0.54.0
       '@zag-js/date-picker': 0.54.0
-      '@zag-js/date-utils': 0.54.0(@internationalized/date@3.5.2)
+      '@zag-js/date-utils': 0.54.0(@internationalized/date@3.5.4)
       '@zag-js/dialog': 0.54.0
       '@zag-js/dom-query': 0.54.0
       '@zag-js/editable': 0.54.0
@@ -3691,12 +3691,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@3.0.1(astro@4.9.3(lightningcss@1.23.0)(typescript@5.4.5))':
+  '@astrojs/mdx@3.0.1(astro@4.10.0(lightningcss@1.23.0)(typescript@5.4.5))':
     dependencies:
       '@astrojs/markdown-remark': 5.1.0
       '@mdx-js/mdx': 3.0.1
       acorn: 8.11.3
-      astro: 4.9.3(lightningcss@1.23.0)(typescript@5.4.5)
+      astro: 4.10.0(lightningcss@1.23.0)(typescript@5.4.5)
       es-module-lexer: 1.5.3
       estree-util-visit: 2.0.0
       github-slugger: 2.0.0
@@ -3727,15 +3727,15 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.23.8
 
-  '@astrojs/starlight@0.24.0(astro@4.9.3(lightningcss@1.23.0)(typescript@5.4.5))':
+  '@astrojs/starlight@0.24.0(astro@4.10.0(lightningcss@1.23.0)(typescript@5.4.5))':
     dependencies:
-      '@astrojs/mdx': 3.0.1(astro@4.9.3(lightningcss@1.23.0)(typescript@5.4.5))
+      '@astrojs/mdx': 3.0.1(astro@4.10.0(lightningcss@1.23.0)(typescript@5.4.5))
       '@astrojs/sitemap': 3.1.5
       '@pagefind/default-ui': 1.1.0
       '@types/hast': 3.0.4
       '@types/mdast': 4.0.4
-      astro: 4.9.3(lightningcss@1.23.0)(typescript@5.4.5)
-      astro-expressive-code: 0.35.3(astro@4.9.3(lightningcss@1.23.0)(typescript@5.4.5))
+      astro: 4.10.0(lightningcss@1.23.0)(typescript@5.4.5)
+      astro-expressive-code: 0.35.3(astro@4.10.0(lightningcss@1.23.0)(typescript@5.4.5))
       bcp-47: 2.1.0
       hast-util-from-html: 2.0.1
       hast-util-select: 6.0.2
@@ -4490,9 +4490,9 @@ snapshots:
 
   '@pandacss/types@0.40.1': {}
 
-  '@park-ui/panda-preset@0.37.1(@internationalized/date@3.5.2)(@pandacss/dev@0.40.1(typescript@5.4.5))(@pandacss/types@0.40.1)':
+  '@park-ui/panda-preset@0.37.1(@internationalized/date@3.5.4)(@pandacss/dev@0.40.1(typescript@5.4.5))(@pandacss/types@0.40.1)':
     dependencies:
-      '@ark-ui/anatomy': 2.3.1(@internationalized/date@3.5.2)
+      '@ark-ui/anatomy': 2.3.1(@internationalized/date@3.5.4)
       '@pandacss/dev': 0.40.1(typescript@5.4.5)
       '@pandacss/types': 0.40.1
       '@radix-ui/colors': 3.0.0
@@ -5093,17 +5093,17 @@ snapshots:
     dependencies:
       '@internationalized/date': 3.5.2
 
-  '@zag-js/date-utils@0.51.1(@internationalized/date@3.5.2)':
+  '@zag-js/date-utils@0.38.0(@internationalized/date@3.5.4)':
     dependencies:
-      '@internationalized/date': 3.5.2
+      '@internationalized/date': 3.5.4
 
   '@zag-js/date-utils@0.51.1(@internationalized/date@3.5.3)':
     dependencies:
       '@internationalized/date': 3.5.3
 
-  '@zag-js/date-utils@0.54.0(@internationalized/date@3.5.2)':
+  '@zag-js/date-utils@0.51.1(@internationalized/date@3.5.4)':
     dependencies:
-      '@internationalized/date': 3.5.2
+      '@internationalized/date': 3.5.4
 
   '@zag-js/date-utils@0.54.0(@internationalized/date@3.5.4)':
     dependencies:
@@ -6098,9 +6098,9 @@ snapshots:
 
   astring@1.8.6: {}
 
-  astro-expressive-code@0.35.3(astro@4.9.3(lightningcss@1.23.0)(typescript@5.4.5)):
+  astro-expressive-code@0.35.3(astro@4.10.0(lightningcss@1.23.0)(typescript@5.4.5)):
     dependencies:
-      astro: 4.9.3(lightningcss@1.23.0)(typescript@5.4.5)
+      astro: 4.10.0(lightningcss@1.23.0)(typescript@5.4.5)
       rehype-expressive-code: 0.35.3
 
   astro-remote@0.3.2:
@@ -6111,7 +6111,7 @@ snapshots:
       marked-smartypants: 1.1.6(marked@12.0.2)
       ultrahtml: 1.5.3
 
-  astro@4.9.3(lightningcss@1.23.0)(typescript@5.4.5):
+  astro@4.10.0(lightningcss@1.23.0)(typescript@5.4.5):
     dependencies:
       '@astrojs/compiler': 2.8.0
       '@astrojs/internal-helpers': 0.4.0
@@ -8059,11 +8059,11 @@ snapshots:
 
   sprintf-js@1.0.3: {}
 
-  starlight-blog@0.8.3(@astrojs/starlight@0.24.0(astro@4.9.3(lightningcss@1.23.0)(typescript@5.4.5)))(astro@4.9.3(lightningcss@1.23.0)(typescript@5.4.5)):
+  starlight-blog@0.8.3(@astrojs/starlight@0.24.0(astro@4.10.0(lightningcss@1.23.0)(typescript@5.4.5)))(astro@4.10.0(lightningcss@1.23.0)(typescript@5.4.5)):
     dependencies:
       '@astrojs/rss': 4.0.5
-      '@astrojs/starlight': 0.24.0(astro@4.9.3(lightningcss@1.23.0)(typescript@5.4.5))
-      astro: 4.9.3(lightningcss@1.23.0)(typescript@5.4.5)
+      '@astrojs/starlight': 0.24.0(astro@4.10.0(lightningcss@1.23.0)(typescript@5.4.5))
+      astro: 4.10.0(lightningcss@1.23.0)(typescript@5.4.5)
       astro-remote: 0.3.2
       github-slugger: 2.0.0
       marked: 12.0.2
