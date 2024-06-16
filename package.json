@@ -24,7 +24,7 @@
     "starlight-blog": "^0.8.0"
   },
   "devDependencies": {
-    "@pandacss/dev": "0.40.1",
+    "@pandacss/dev": "0.41.0",
     "@park-ui/panda-preset": "0.38.0",
     "prettier": "3.3.2",
     "prettier-plugin-astro": "0.14.0"
