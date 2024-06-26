@@ -16,7 +16,7 @@ importers:
         version: 0.7.0(prettier-plugin-astro@0.14.0)(prettier@3.3.2)(typescript@5.5.2)
       '@astrojs/starlight':
         specifier: ^0.24.0
-        version: 0.24.4(astro@4.11.2(lightningcss@1.23.0)(typescript@5.5.2))
+        version: 0.24.4(astro@4.11.3(lightningcss@1.23.0)(typescript@5.5.2))
       '@types/react':
         specifier: ^18.2.47
         version: 18.3.3
@@ -25,7 +25,7 @@ importers:
         version: 18.3.0
       astro:
         specifier: ^4.0.1
-        version: 4.11.2(lightningcss@1.23.0)(typescript@5.5.2)
+        version: 4.11.3(lightningcss@1.23.0)(typescript@5.5.2)
       react:
         specifier: ^18.2.0
         version: 18.3.1
@@ -37,7 +37,7 @@ importers:
         version: 0.33.4
       starlight-blog:
         specifier: ^0.9.0
-        version: 0.9.0(@astrojs/starlight@0.24.4(astro@4.11.2(lightningcss@1.23.0)(typescript@5.5.2)))(astro@4.11.2(lightningcss@1.23.0)(typescript@5.5.2))
+        version: 0.9.0(@astrojs/starlight@0.24.4(astro@4.11.3(lightningcss@1.23.0)(typescript@5.5.2)))(astro@4.11.3(lightningcss@1.23.0)(typescript@5.5.2))
       typescript:
         specifier: ^5.3.3
         version: 5.5.2
@@ -1279,8 +1279,8 @@ packages:
     resolution: {integrity: sha512-Xwm6Y+ldQEnDB2l1WwVqeUs3QvUX8LtJWnovpXlf8xhpicPu159jXOhDbHZS9wilGO/+/nR67A1qskF8pDvdGQ==}
     engines: {node: '>=18.14.1'}
 
-  astro@4.11.2:
-    resolution: {integrity: sha512-8ulWb74qY5VBFhDTjw1KMCMEf+EXOoSBy4QC6J1oHIq5tzMGCVRt3sUPzUxD737HVPb+CxOIbj35skN0w535fw==}
+  astro@4.11.3:
+    resolution: {integrity: sha512-SuZbB/71XVn+WqWNCe7XOfHuqhS+k4gj8+A3wluTZQrORGaHUFRn/f8F9Tu5yESQZB1q8UKhahvHwkTV3AdVsg==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -3300,12 +3300,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@3.1.1(astro@4.11.2(lightningcss@1.23.0)(typescript@5.5.2))':
+  '@astrojs/mdx@3.1.1(astro@4.11.3(lightningcss@1.23.0)(typescript@5.5.2))':
     dependencies:
       '@astrojs/markdown-remark': 5.1.0
       '@mdx-js/mdx': 3.0.1
       acorn: 8.12.0
-      astro: 4.11.2(lightningcss@1.23.0)(typescript@5.5.2)
+      astro: 4.11.3(lightningcss@1.23.0)(typescript@5.5.2)
       es-module-lexer: 1.5.4
       estree-util-visit: 2.0.0
       github-slugger: 2.0.0
@@ -3336,15 +3336,15 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.23.8
 
-  '@astrojs/starlight@0.24.4(astro@4.11.2(lightningcss@1.23.0)(typescript@5.5.2))':
+  '@astrojs/starlight@0.24.4(astro@4.11.3(lightningcss@1.23.0)(typescript@5.5.2))':
     dependencies:
-      '@astrojs/mdx': 3.1.1(astro@4.11.2(lightningcss@1.23.0)(typescript@5.5.2))
+      '@astrojs/mdx': 3.1.1(astro@4.11.3(lightningcss@1.23.0)(typescript@5.5.2))
       '@astrojs/sitemap': 3.1.6
       '@pagefind/default-ui': 1.1.0
       '@types/hast': 3.0.4
       '@types/mdast': 4.0.4
-      astro: 4.11.2(lightningcss@1.23.0)(typescript@5.5.2)
-      astro-expressive-code: 0.35.3(astro@4.11.2(lightningcss@1.23.0)(typescript@5.5.2))
+      astro: 4.11.3(lightningcss@1.23.0)(typescript@5.5.2)
+      astro-expressive-code: 0.35.3(astro@4.11.3(lightningcss@1.23.0)(typescript@5.5.2))
       bcp-47: 2.1.0
       hast-util-from-html: 2.0.1
       hast-util-select: 6.0.2
@@ -4824,9 +4824,9 @@ snapshots:
 
   astring@1.8.6: {}
 
-  astro-expressive-code@0.35.3(astro@4.11.2(lightningcss@1.23.0)(typescript@5.5.2)):
+  astro-expressive-code@0.35.3(astro@4.11.3(lightningcss@1.23.0)(typescript@5.5.2)):
     dependencies:
-      astro: 4.11.2(lightningcss@1.23.0)(typescript@5.5.2)
+      astro: 4.11.3(lightningcss@1.23.0)(typescript@5.5.2)
       rehype-expressive-code: 0.35.3
 
   astro-remote@0.3.2:
@@ -4837,7 +4837,7 @@ snapshots:
       marked-smartypants: 1.1.6(marked@12.0.2)
       ultrahtml: 1.5.3
 
-  astro@4.11.2(lightningcss@1.23.0)(typescript@5.5.2):
+  astro@4.11.3(lightningcss@1.23.0)(typescript@5.5.2):
     dependencies:
       '@astrojs/compiler': 2.8.1
       '@astrojs/internal-helpers': 0.4.1
@@ -6781,11 +6781,11 @@ snapshots:
 
   sprintf-js@1.0.3: {}
 
-  starlight-blog@0.9.0(@astrojs/starlight@0.24.4(astro@4.11.2(lightningcss@1.23.0)(typescript@5.5.2)))(astro@4.11.2(lightningcss@1.23.0)(typescript@5.5.2)):
+  starlight-blog@0.9.0(@astrojs/starlight@0.24.4(astro@4.11.3(lightningcss@1.23.0)(typescript@5.5.2)))(astro@4.11.3(lightningcss@1.23.0)(typescript@5.5.2)):
     dependencies:
       '@astrojs/rss': 4.0.5
-      '@astrojs/starlight': 0.24.4(astro@4.11.2(lightningcss@1.23.0)(typescript@5.5.2))
-      astro: 4.11.2(lightningcss@1.23.0)(typescript@5.5.2)
+      '@astrojs/starlight': 0.24.4(astro@4.11.3(lightningcss@1.23.0)(typescript@5.5.2))
+      astro: 4.11.3(lightningcss@1.23.0)(typescript@5.5.2)
       astro-remote: 0.3.2
       github-slugger: 2.0.0
       marked: 12.0.2
