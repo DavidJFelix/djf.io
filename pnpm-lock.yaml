@@ -15,8 +15,8 @@ importers:
         specifier: ^0.7.0
         version: 0.7.0(prettier-plugin-astro@0.14.0)(prettier@3.3.2)(typescript@5.5.3)
       '@astrojs/starlight':
-        specifier: ^0.24.0
-        version: 0.24.5(astro@4.11.5(lightningcss@1.23.0)(typescript@5.5.3))
+        specifier: ^0.25.0
+        version: 0.25.0(astro@4.11.5(lightningcss@1.23.0)(typescript@5.5.3))
       '@types/react':
         specifier: ^18.2.47
         version: 18.3.3
@@ -37,7 +37,7 @@ importers:
         version: 0.33.4
       starlight-blog:
         specifier: ^0.11.0
-        version: 0.11.0(@astrojs/starlight@0.24.5(astro@4.11.5(lightningcss@1.23.0)(typescript@5.5.3)))(astro@4.11.5(lightningcss@1.23.0)(typescript@5.5.3))
+        version: 0.11.0(@astrojs/starlight@0.25.0(astro@4.11.5(lightningcss@1.23.0)(typescript@5.5.3)))(astro@4.11.5(lightningcss@1.23.0)(typescript@5.5.3))
       typescript:
         specifier: ^5.3.3
         version: 5.5.3
@@ -116,8 +116,8 @@ packages:
   '@astrojs/sitemap@3.1.6':
     resolution: {integrity: sha512-1Qp2NvAzVImqA6y+LubKi1DVhve/hXXgFvB0szxiipzh7BvtuKe4oJJ9dXSqaubaTkt4nMa6dv6RCCAYeB6xaQ==}
 
-  '@astrojs/starlight@0.24.5':
-    resolution: {integrity: sha512-DDI8NpLzk+ReBudhAV09OhO5DxD+KN4Nnp3YlG6kwn/F8fmywNTNgY7VW67Z8aad+A/85OOiQOtq9wIFNRy3YA==}
+  '@astrojs/starlight@0.25.0':
+    resolution: {integrity: sha512-1T317AsdmMa+EP0tAPZY84G/9Ez79/8G6fHBaUr994GZSaptpr45vlyxyWtxlgIbdlio2EhKaXay4RVqqUKqXw==}
     peerDependencies:
       astro: ^4.8.6
 
@@ -3452,7 +3452,7 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.23.8
 
-  '@astrojs/starlight@0.24.5(astro@4.11.5(lightningcss@1.23.0)(typescript@5.5.3))':
+  '@astrojs/starlight@0.25.0(astro@4.11.5(lightningcss@1.23.0)(typescript@5.5.3))':
     dependencies:
       '@astrojs/mdx': 3.1.2(astro@4.11.5(lightningcss@1.23.0)(typescript@5.5.3))
       '@astrojs/sitemap': 3.1.6
@@ -7315,10 +7315,10 @@ snapshots:
 
   sprintf-js@1.0.3: {}
 
-  starlight-blog@0.11.0(@astrojs/starlight@0.24.5(astro@4.11.5(lightningcss@1.23.0)(typescript@5.5.3)))(astro@4.11.5(lightningcss@1.23.0)(typescript@5.5.3)):
+  starlight-blog@0.11.0(@astrojs/starlight@0.25.0(astro@4.11.5(lightningcss@1.23.0)(typescript@5.5.3)))(astro@4.11.5(lightningcss@1.23.0)(typescript@5.5.3)):
     dependencies:
       '@astrojs/rss': 4.0.5
-      '@astrojs/starlight': 0.24.5(astro@4.11.5(lightningcss@1.23.0)(typescript@5.5.3))
+      '@astrojs/starlight': 0.25.0(astro@4.11.5(lightningcss@1.23.0)(typescript@5.5.3))
       astro: 4.11.5(lightningcss@1.23.0)(typescript@5.5.3)
       astro-remote: 0.3.2
       github-slugger: 2.0.0
