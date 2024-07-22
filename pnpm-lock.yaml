@@ -37,7 +37,7 @@ importers:
         version: 0.33.4
       starlight-blog:
         specifier: ^0.11.0
-        version: 0.11.0(@astrojs/starlight@0.25.1(astro@4.12.2(lightningcss@1.25.1)(typescript@5.5.3)))(astro@4.12.2(lightningcss@1.25.1)(typescript@5.5.3))
+        version: 0.11.1(@astrojs/starlight@0.25.1(astro@4.12.2(lightningcss@1.25.1)(typescript@5.5.3)))(astro@4.12.2(lightningcss@1.25.1)(typescript@5.5.3))
       typescript:
         specifier: ^5.3.3
         version: 5.5.3
@@ -2850,8 +2850,8 @@ packages:
   sprintf-js@1.0.3:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
 
-  starlight-blog@0.11.0:
-    resolution: {integrity: sha512-3ZM4FUW/6bKyEspXR6KOuSpdj7PxePhn8UTU5M7TBTk1s1NLtcf4d+ndrGWNpNkeuTfzhP/F4CRY6jRsyMzRKA==}
+  starlight-blog@0.11.1:
+    resolution: {integrity: sha512-2nMcYzCOrWZ8/34G7SouSX1jVzwKPARFwyszTF2497FN6ZUdrTsnhLB6Q7/l6fEKdcQkh9UCyMI7coeR670guA==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       '@astrojs/starlight': '>=0.24.0'
@@ -7315,7 +7315,7 @@ snapshots:
 
   sprintf-js@1.0.3: {}
 
-  starlight-blog@0.11.0(@astrojs/starlight@0.25.1(astro@4.12.2(lightningcss@1.25.1)(typescript@5.5.3)))(astro@4.12.2(lightningcss@1.25.1)(typescript@5.5.3)):
+  starlight-blog@0.11.1(@astrojs/starlight@0.25.1(astro@4.12.2(lightningcss@1.25.1)(typescript@5.5.3)))(astro@4.12.2(lightningcss@1.25.1)(typescript@5.5.3)):
     dependencies:
       '@astrojs/rss': 4.0.5
       '@astrojs/starlight': 0.25.1(astro@4.12.2(lightningcss@1.25.1)(typescript@5.5.3))
