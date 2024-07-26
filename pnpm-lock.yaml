@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@ark-ui/react':
         specifier: ^3.0.0
-        version: 3.6.0(@internationalized/date@3.5.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 3.6.1(@internationalized/date@3.5.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@astrojs/check':
         specifier: ^0.8.0
         version: 0.8.3(prettier-plugin-astro@0.14.1)(prettier@3.3.3)(typescript@5.5.4)
@@ -47,7 +47,7 @@ importers:
         version: 0.44.0(typescript@5.5.4)
       '@park-ui/panda-preset':
         specifier: 0.39.0
-        version: 0.39.0(@internationalized/date@3.5.5)(@pandacss/dev@0.44.0(typescript@5.5.4))
+        version: 0.39.0(@internationalized/date@3.5.4)(@pandacss/dev@0.44.0(typescript@5.5.4))
       prettier:
         specifier: 3.3.3
         version: 3.3.3
@@ -64,8 +64,8 @@ packages:
   '@ark-ui/anatomy@3.4.0':
     resolution: {integrity: sha512-yRqNfI12UiQ3PliVvE8j81vLX4Nhhk07BWK6NLY6uaDUzMUjcv219zdPDxMnF6Pb9kG9Kxpz1opwsbe4LNB3wQ==}
 
-  '@ark-ui/react@3.6.0':
-    resolution: {integrity: sha512-LEPc8qNoMYvlS2Rp+Nc83rggs3FY2Vk3Lf+ZbsGyGgOlRSfPC7PHVWSP9kWgfAzH6mgtVM/+TuP2Y5pYKFm4Xg==}
+  '@ark-ui/react@3.6.1':
+    resolution: {integrity: sha512-mKRfqDZUhhKZ+srF8TImHzPKMGqd83yV9z5IPOxBS9j2hA4snORObMoFCqTuzMCquCmtSZhcg3ZfHKksucrWLw==}
     peerDependencies:
       react: '>=18.0.0'
       react-dom: '>=18.0.0'
@@ -3275,7 +3275,7 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@ark-ui/anatomy@3.4.0(@internationalized/date@3.5.5)':
+  '@ark-ui/anatomy@3.4.0(@internationalized/date@3.5.4)':
     dependencies:
       '@zag-js/accordion': 0.58.2
       '@zag-js/anatomy': 0.58.2
@@ -3288,7 +3288,7 @@ snapshots:
       '@zag-js/color-utils': 0.58.2
       '@zag-js/combobox': 0.58.2
       '@zag-js/date-picker': 0.58.2
-      '@zag-js/date-utils': 0.58.2(@internationalized/date@3.5.5)
+      '@zag-js/date-utils': 0.58.2(@internationalized/date@3.5.4)
       '@zag-js/dialog': 0.58.2
       '@zag-js/editable': 0.58.2
       '@zag-js/file-upload': 0.58.2
@@ -3317,7 +3317,7 @@ snapshots:
     transitivePeerDependencies:
       - '@internationalized/date'
 
-  '@ark-ui/react@3.6.0(@internationalized/date@3.5.5)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@ark-ui/react@3.6.1(@internationalized/date@3.5.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@zag-js/accordion': 0.62.1
       '@zag-js/anatomy': 0.62.1
@@ -3331,7 +3331,7 @@ snapshots:
       '@zag-js/combobox': 0.62.1
       '@zag-js/core': 0.62.1
       '@zag-js/date-picker': 0.62.1
-      '@zag-js/date-utils': 0.62.1(@internationalized/date@3.5.5)
+      '@zag-js/date-utils': 0.62.1(@internationalized/date@3.5.4)
       '@zag-js/dialog': 0.62.1
       '@zag-js/dom-query': 0.62.1
       '@zag-js/editable': 0.62.1
@@ -4221,9 +4221,9 @@ snapshots:
 
   '@pandacss/types@0.44.0': {}
 
-  '@park-ui/panda-preset@0.39.0(@internationalized/date@3.5.5)(@pandacss/dev@0.44.0(typescript@5.5.4))':
+  '@park-ui/panda-preset@0.39.0(@internationalized/date@3.5.4)(@pandacss/dev@0.44.0(typescript@5.5.4))':
     dependencies:
-      '@ark-ui/anatomy': 3.4.0(@internationalized/date@3.5.5)
+      '@ark-ui/anatomy': 3.4.0(@internationalized/date@3.5.4)
       '@pandacss/dev': 0.44.0(typescript@5.5.4)
       '@radix-ui/colors': 3.0.0
       deepmerge: 4.3.1
@@ -4706,9 +4706,9 @@ snapshots:
     dependencies:
       '@internationalized/date': 3.5.4
 
-  '@zag-js/date-utils@0.58.2(@internationalized/date@3.5.5)':
+  '@zag-js/date-utils@0.62.1(@internationalized/date@3.5.4)':
     dependencies:
-      '@internationalized/date': 3.5.5
+      '@internationalized/date': 3.5.4
 
   '@zag-js/date-utils@0.62.1(@internationalized/date@3.5.5)':
     dependencies:
