@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@ark-ui/react':
         specifier: ^3.0.0
-        version: 3.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 3.8.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@astrojs/check':
         specifier: ^0.9.0
         version: 0.9.3(prettier-plugin-astro@0.14.1)(prettier@3.3.3)(typescript@5.5.4)
@@ -64,8 +64,8 @@ packages:
   '@ark-ui/anatomy@3.5.0':
     resolution: {integrity: sha512-KoROLVVT23BvFHcye/GYhG8NJ2CH0C+CaoJhXrkEjvk8pbEx80Xk5NIUy5gL7xmX+LDD7kY5t3NotBqCu+2L2w==}
 
-  '@ark-ui/react@3.7.0':
-    resolution: {integrity: sha512-Dfmvspkn96JrJsZ55cixbXT29e1NS/8PZfMGRxV2x0scoqnG9R9wucDdbb+zRjc3MJ+r6608lGJNjEXBQLSL1g==}
+  '@ark-ui/react@3.8.0':
+    resolution: {integrity: sha512-k+BEyGdhC1NPzHQJ2KyjnmwdloDxid/AMm3TPEY/pIPNpDThH4LkyowW453BqSRw59navnketLdY1Lsu+dldjQ==}
     peerDependencies:
       react: '>=18.0.0'
       react-dom: '>=18.0.0'
@@ -1340,6 +1340,9 @@ packages:
 
   '@zag-js/time-picker@0.64.0':
     resolution: {integrity: sha512-KTC84r6sxHDg09WU4biZuczcgHdJ1yxdFqhByWILDk6jfB9UHgjjLNi6xD39AswawZIgLCRmv3EINKVfvyI31Q==}
+
+  '@zag-js/timer@0.64.0':
+    resolution: {integrity: sha512-rfg1m6k+a65IPiBKdAUrIr2jdSSZjccZB739uCTUwiEEYytaTj6SkGGGd4ArbY0FMbX0xv0ZnSL0wFhU5fw1Sg==}
 
   '@zag-js/toast@0.62.1':
     resolution: {integrity: sha512-Kb+OiFx7KUG0fAExIL06xWEfhxeMRJACvP6q4B4FNuFX+6N06RbV/PZtLbPbffOodd7VhSk1W37T7t6Np32mvg==}
@@ -3331,7 +3334,7 @@ snapshots:
     transitivePeerDependencies:
       - '@internationalized/date'
 
-  '@ark-ui/react@3.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@ark-ui/react@3.8.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@internationalized/date': 3.5.5
       '@zag-js/accordion': 0.64.0
@@ -3374,6 +3377,7 @@ snapshots:
       '@zag-js/tabs': 0.64.0
       '@zag-js/tags-input': 0.64.0
       '@zag-js/time-picker': 0.64.0
+      '@zag-js/timer': 0.64.0
       '@zag-js/toast': 0.64.0
       '@zag-js/toggle-group': 0.64.0
       '@zag-js/tooltip': 0.64.0
@@ -5287,6 +5291,13 @@ snapshots:
       '@zag-js/dom-event': 0.64.0
       '@zag-js/dom-query': 0.64.0
       '@zag-js/popper': 0.64.0
+      '@zag-js/types': 0.64.0
+      '@zag-js/utils': 0.64.0
+
+  '@zag-js/timer@0.64.0':
+    dependencies:
+      '@zag-js/anatomy': 0.64.0
+      '@zag-js/core': 0.64.0
       '@zag-js/types': 0.64.0
       '@zag-js/utils': 0.64.0
 
