@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@ark-ui/react':
         specifier: ^4.0.0
-        version: 4.4.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 4.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@astrojs/check':
         specifier: ^0.9.0
         version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.3.3)(typescript@5.6.3)
@@ -47,7 +47,7 @@ importers:
         version: 0.48.0(typescript@5.6.3)
       '@park-ui/panda-preset':
         specifier: 0.42.0
-        version: 0.42.0(@internationalized/date@3.5.6)(@pandacss/dev@0.48.0(typescript@5.6.3))
+        version: 0.42.0(@internationalized/date@3.5.5)(@pandacss/dev@0.48.0(typescript@5.6.3))
       prettier:
         specifier: 3.3.3
         version: 3.3.3
@@ -64,8 +64,8 @@ packages:
   '@ark-ui/anatomy@3.5.0':
     resolution: {integrity: sha512-KoROLVVT23BvFHcye/GYhG8NJ2CH0C+CaoJhXrkEjvk8pbEx80Xk5NIUy5gL7xmX+LDD7kY5t3NotBqCu+2L2w==}
 
-  '@ark-ui/react@4.4.0':
-    resolution: {integrity: sha512-MzytbkqWS+Qo4TTcjqgyLTAw0vrzKcYJsUM8QNU99YdWfzcvT+Ycbh1a4giSHQ8/sOWemHnvQNHEc4778Vnkrw==}
+  '@ark-ui/react@4.4.1':
+    resolution: {integrity: sha512-uUsrsXB/O5+QaxU4P7SB8NFDpwXI1ZVylsTXYWG4cCK/5duwBdo16BCtJcajQsET8s6+I2doE6t4F5LiLBgRPg==}
     peerDependencies:
       react: '>=18.0.0'
       react-dom: '>=18.0.0'
@@ -3339,7 +3339,7 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@ark-ui/anatomy@3.5.0(@internationalized/date@3.5.6)':
+  '@ark-ui/anatomy@3.5.0(@internationalized/date@3.5.5)':
     dependencies:
       '@zag-js/accordion': 0.62.1
       '@zag-js/anatomy': 0.62.1
@@ -3352,7 +3352,7 @@ snapshots:
       '@zag-js/color-utils': 0.62.1
       '@zag-js/combobox': 0.62.1
       '@zag-js/date-picker': 0.62.1
-      '@zag-js/date-utils': 0.62.1(@internationalized/date@3.5.6)
+      '@zag-js/date-utils': 0.62.1(@internationalized/date@3.5.5)
       '@zag-js/dialog': 0.62.1
       '@zag-js/editable': 0.62.1
       '@zag-js/file-upload': 0.62.1
@@ -3382,7 +3382,7 @@ snapshots:
     transitivePeerDependencies:
       - '@internationalized/date'
 
-  '@ark-ui/react@4.4.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@ark-ui/react@4.4.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@internationalized/date': 3.5.6
       '@zag-js/accordion': 0.77.1
@@ -4272,9 +4272,9 @@ snapshots:
 
   '@pandacss/types@0.48.0': {}
 
-  '@park-ui/panda-preset@0.42.0(@internationalized/date@3.5.6)(@pandacss/dev@0.48.0(typescript@5.6.3))':
+  '@park-ui/panda-preset@0.42.0(@internationalized/date@3.5.5)(@pandacss/dev@0.48.0(typescript@5.6.3))':
     dependencies:
-      '@ark-ui/anatomy': 3.5.0(@internationalized/date@3.5.6)
+      '@ark-ui/anatomy': 3.5.0(@internationalized/date@3.5.5)
       '@pandacss/dev': 0.48.0(typescript@5.6.3)
       '@radix-ui/colors': 3.0.0
       ts-pattern: 5.2.0
@@ -4780,10 +4780,6 @@ snapshots:
   '@zag-js/date-utils@0.62.1(@internationalized/date@3.5.5)':
     dependencies:
       '@internationalized/date': 3.5.5
-
-  '@zag-js/date-utils@0.62.1(@internationalized/date@3.5.6)':
-    dependencies:
-      '@internationalized/date': 3.5.6
 
   '@zag-js/date-utils@0.77.1(@internationalized/date@3.5.6)':
     dependencies:
