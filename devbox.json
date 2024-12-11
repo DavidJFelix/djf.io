@@ -1,12 +1,13 @@
 {
   "packages": [
     "nodejs@latest",
-    "nodePackages.pnpm@latest",
-    "just@latest",
-    "sqlite@latest"
+    "just@latest"
   ],
   "shell": {
     "init_hook": ["echo 'Configure this in devbox.json'"],
     "scripts":   {}
+  },
+  "env": {
+    "DEVBOX_COREPACK_ENABLED": "true"
   }
 }

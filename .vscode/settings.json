@@ -1,36 +1,37 @@
 {
-  "cSpell.words": [
-    "Angelhack",
-    "architecting",
-    "astro",
-    "astrojs",
-    "Atumsoft",
-    "commenters",
-    "DALL-E",
-    "doomer",
-    "gatekept",
-    "Grammarly",
-    "Hackathon",
-    "headshot",
-    "Instameals",
-    "iotv",
-    "pandacss",
-    "Pepperonio",
-    "struct",
-    "Swarmfarm",
-    "tsconfigs",
-    "VNDLY"
-  ],
-  "grammarly.selectors": [
-    {
-      "language": "markdown",
-      "scheme": "file",
-      "pattern": "src/content/docs/blog/example.md"
-    },
-    {
-      "language": "mdx",
-      "scheme": "file"
-    }
-  ],
-  "cSpell.enableFiletypes": ["astro", "just", "mdx", "nix"]
+	"cSpell.words": [
+		"Angelhack",
+		"architecting",
+		"astro",
+		"astrojs",
+		"Atumsoft",
+		"commenters",
+		"DALL-E",
+		"DEVBOX",
+		"doomer",
+		"gatekept",
+		"Grammarly",
+		"Hackathon",
+		"headshot",
+		"Instameals",
+		"iotv",
+		"pandacss",
+		"Pepperonio",
+		"struct",
+		"Swarmfarm",
+		"tsconfigs",
+		"VNDLY"
+	],
+	"grammarly.selectors": [
+		{
+			"language": "markdown",
+			"scheme": "file",
+			"pattern": "src/content/docs/blog/example.md"
+		},
+		{
+			"language": "mdx",
+			"scheme": "file"
+		}
+	],
+	"cSpell.enableFiletypes": ["astro", "just", "mdx", "nix"]
 }
