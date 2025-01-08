@@ -16,10 +16,10 @@ importers:
         version: 4.7.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@astrojs/check':
         specifier: ^0.9.4
-        version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.4.2)(typescript@5.7.2)
+        version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.4.2)(typescript@5.7.3)
       '@astrojs/starlight':
         specifier: ^0.30.0
-        version: 0.30.5(astro@5.1.3(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.30.1)(typescript@5.7.2)(yaml@2.5.1))
+        version: 0.30.5(astro@5.1.3(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.30.1)(typescript@5.7.3)(yaml@2.5.1))
       '@types/react':
         specifier: ^19.0.0
         version: 19.0.4
@@ -28,7 +28,7 @@ importers:
         version: 19.0.2(@types/react@19.0.4)
       astro:
         specifier: ^5.0.4
-        version: 5.1.3(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.30.1)(typescript@5.7.2)(yaml@2.5.1)
+        version: 5.1.3(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.30.1)(typescript@5.7.3)(yaml@2.5.1)
       react:
         specifier: ^19.0.0
         version: 19.0.0
@@ -40,14 +40,14 @@ importers:
         version: 0.33.5
       typescript:
         specifier: ^5.3.3
-        version: 5.7.2
+        version: 5.7.3
     devDependencies:
       '@pandacss/dev':
         specifier: 0.51.1
-        version: 0.51.1(typescript@5.7.2)
+        version: 0.51.1(typescript@5.7.3)
       '@park-ui/panda-preset':
         specifier: 0.43.1
-        version: 0.43.1(@internationalized/date@3.6.0)(@pandacss/dev@0.51.1(typescript@5.7.2))
+        version: 0.43.1(@internationalized/date@3.6.0)(@pandacss/dev@0.51.1(typescript@5.7.3))
       prettier:
         specifier: 3.4.2
         version: 3.4.2
@@ -2974,8 +2974,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  typescript@5.7.2:
-    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
+  typescript@5.7.3:
+    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -3449,12 +3449,12 @@ snapshots:
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
 
-  '@astrojs/check@0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.4.2)(typescript@5.7.2)':
+  '@astrojs/check@0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.4.2)(typescript@5.7.3)':
     dependencies:
-      '@astrojs/language-server': 2.15.0(prettier-plugin-astro@0.14.1)(prettier@3.4.2)(typescript@5.7.2)
+      '@astrojs/language-server': 2.15.0(prettier-plugin-astro@0.14.1)(prettier@3.4.2)(typescript@5.7.3)
       chokidar: 4.0.1
       kleur: 4.1.5
-      typescript: 5.7.2
+      typescript: 5.7.3
       yargs: 17.7.2
     transitivePeerDependencies:
       - prettier
@@ -3466,12 +3466,12 @@ snapshots:
 
   '@astrojs/internal-helpers@0.4.2': {}
 
-  '@astrojs/language-server@2.15.0(prettier-plugin-astro@0.14.1)(prettier@3.4.2)(typescript@5.7.2)':
+  '@astrojs/language-server@2.15.0(prettier-plugin-astro@0.14.1)(prettier@3.4.2)(typescript@5.7.3)':
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/yaml2ts': 0.2.1
       '@jridgewell/sourcemap-codec': 1.5.0
-      '@volar/kit': 2.4.5(typescript@5.7.2)
+      '@volar/kit': 2.4.5(typescript@5.7.3)
       '@volar/language-core': 2.4.5
       '@volar/language-server': 2.4.5
       '@volar/language-service': 2.4.5
@@ -3516,12 +3516,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.0.3(astro@5.1.3(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.30.1)(typescript@5.7.2)(yaml@2.5.1))':
+  '@astrojs/mdx@4.0.3(astro@5.1.3(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.30.1)(typescript@5.7.3)(yaml@2.5.1))':
     dependencies:
       '@astrojs/markdown-remark': 6.0.1
       '@mdx-js/mdx': 3.1.0(acorn@8.14.0)
       acorn: 8.14.0
-      astro: 5.1.3(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.30.1)(typescript@5.7.2)(yaml@2.5.1)
+      astro: 5.1.3(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.30.1)(typescript@5.7.3)(yaml@2.5.1)
       es-module-lexer: 1.6.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.4
@@ -3545,16 +3545,16 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.24.1
 
-  '@astrojs/starlight@0.30.5(astro@5.1.3(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.30.1)(typescript@5.7.2)(yaml@2.5.1))':
+  '@astrojs/starlight@0.30.5(astro@5.1.3(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.30.1)(typescript@5.7.3)(yaml@2.5.1))':
     dependencies:
-      '@astrojs/mdx': 4.0.3(astro@5.1.3(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.30.1)(typescript@5.7.2)(yaml@2.5.1))
+      '@astrojs/mdx': 4.0.3(astro@5.1.3(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.30.1)(typescript@5.7.3)(yaml@2.5.1))
       '@astrojs/sitemap': 3.2.1
       '@pagefind/default-ui': 1.3.0
       '@types/hast': 3.0.4
       '@types/js-yaml': 4.0.9
       '@types/mdast': 4.0.4
-      astro: 5.1.3(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.30.1)(typescript@5.7.2)(yaml@2.5.1)
-      astro-expressive-code: 0.38.3(astro@5.1.3(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.30.1)(typescript@5.7.2)(yaml@2.5.1))
+      astro: 5.1.3(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.30.1)(typescript@5.7.3)(yaml@2.5.1)
+      astro-expressive-code: 0.38.3(astro@5.1.3(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.30.1)(typescript@5.7.3)(yaml@2.5.1))
       bcp-47: 2.1.0
       hast-util-from-html: 2.0.3
       hast-util-select: 6.0.3
@@ -4109,13 +4109,13 @@ snapshots:
       postcss-selector-parser: 6.1.2
       ts-pattern: 5.0.8
 
-  '@pandacss/dev@0.51.1(typescript@5.7.2)':
+  '@pandacss/dev@0.51.1(typescript@5.7.3)':
     dependencies:
       '@clack/prompts': 0.7.0
       '@pandacss/config': 0.51.1
       '@pandacss/logger': 0.51.1
-      '@pandacss/node': 0.51.1(typescript@5.7.2)
-      '@pandacss/postcss': 0.51.1(typescript@5.7.2)
+      '@pandacss/node': 0.51.1(typescript@5.7.3)
+      '@pandacss/postcss': 0.51.1(typescript@5.7.3)
       '@pandacss/preset-panda': 0.51.1
       '@pandacss/shared': 0.51.1
       '@pandacss/token-dictionary': 0.51.1
@@ -4125,10 +4125,10 @@ snapshots:
       - jsdom
       - typescript
 
-  '@pandacss/extractor@0.51.1(typescript@5.7.2)':
+  '@pandacss/extractor@0.51.1(typescript@5.7.3)':
     dependencies:
       '@pandacss/shared': 0.51.1
-      ts-evaluator: 1.2.0(typescript@5.7.2)
+      ts-evaluator: 1.2.0(typescript@5.7.3)
       ts-morph: 24.0.0
     transitivePeerDependencies:
       - jsdom
@@ -4155,13 +4155,13 @@ snapshots:
       '@pandacss/types': 0.51.1
       kleur: 4.1.5
 
-  '@pandacss/node@0.51.1(typescript@5.7.2)':
+  '@pandacss/node@0.51.1(typescript@5.7.3)':
     dependencies:
       '@pandacss/config': 0.51.1
       '@pandacss/core': 0.51.1
       '@pandacss/generator': 0.51.1
       '@pandacss/logger': 0.51.1
-      '@pandacss/parser': 0.51.1(typescript@5.7.2)
+      '@pandacss/parser': 0.51.1(typescript@5.7.3)
       '@pandacss/reporter': 0.51.1
       '@pandacss/shared': 0.51.1
       '@pandacss/token-dictionary': 0.51.1
@@ -4183,16 +4183,16 @@ snapshots:
       prettier: 3.2.5
       ts-morph: 24.0.0
       ts-pattern: 5.0.8
-      tsconfck: 3.0.2(typescript@5.7.2)
+      tsconfck: 3.0.2(typescript@5.7.3)
     transitivePeerDependencies:
       - jsdom
       - typescript
 
-  '@pandacss/parser@0.51.1(typescript@5.7.2)':
+  '@pandacss/parser@0.51.1(typescript@5.7.3)':
     dependencies:
       '@pandacss/config': 0.51.1
       '@pandacss/core': 0.51.1
-      '@pandacss/extractor': 0.51.1(typescript@5.7.2)
+      '@pandacss/extractor': 0.51.1(typescript@5.7.3)
       '@pandacss/logger': 0.51.1
       '@pandacss/shared': 0.51.1
       '@pandacss/types': 0.51.1
@@ -4204,9 +4204,9 @@ snapshots:
       - jsdom
       - typescript
 
-  '@pandacss/postcss@0.51.1(typescript@5.7.2)':
+  '@pandacss/postcss@0.51.1(typescript@5.7.3)':
     dependencies:
-      '@pandacss/node': 0.51.1(typescript@5.7.2)
+      '@pandacss/node': 0.51.1(typescript@5.7.3)
       postcss: 8.4.49
     transitivePeerDependencies:
       - jsdom
@@ -4241,10 +4241,10 @@ snapshots:
 
   '@pandacss/types@0.51.1': {}
 
-  '@park-ui/panda-preset@0.43.1(@internationalized/date@3.6.0)(@pandacss/dev@0.51.1(typescript@5.7.2))':
+  '@park-ui/panda-preset@0.43.1(@internationalized/date@3.6.0)(@pandacss/dev@0.51.1(typescript@5.7.3))':
     dependencies:
       '@ark-ui/anatomy': 3.5.0(@internationalized/date@3.6.0)
-      '@pandacss/dev': 0.51.1(typescript@5.7.2)
+      '@pandacss/dev': 0.51.1(typescript@5.7.3)
       effect: 3.10.15
     transitivePeerDependencies:
       - '@internationalized/date'
@@ -4413,12 +4413,12 @@ snapshots:
 
   '@ungap/structured-clone@1.2.1': {}
 
-  '@volar/kit@2.4.5(typescript@5.7.2)':
+  '@volar/kit@2.4.5(typescript@5.7.3)':
     dependencies:
       '@volar/language-service': 2.4.5
       '@volar/typescript': 2.4.5
       typesafe-path: 0.2.2
-      typescript: 5.7.2
+      typescript: 5.7.3
       vscode-languageserver-textdocument: 1.0.12
       vscode-uri: 3.0.8
 
@@ -5465,12 +5465,12 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-expressive-code@0.38.3(astro@5.1.3(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.30.1)(typescript@5.7.2)(yaml@2.5.1)):
+  astro-expressive-code@0.38.3(astro@5.1.3(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.30.1)(typescript@5.7.3)(yaml@2.5.1)):
     dependencies:
-      astro: 5.1.3(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.30.1)(typescript@5.7.2)(yaml@2.5.1)
+      astro: 5.1.3(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.30.1)(typescript@5.7.3)(yaml@2.5.1)
       rehype-expressive-code: 0.38.3
 
-  astro@5.1.3(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.30.1)(typescript@5.7.2)(yaml@2.5.1):
+  astro@5.1.3(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.30.1)(typescript@5.7.3)(yaml@2.5.1):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.2
@@ -5517,7 +5517,7 @@ snapshots:
       semver: 7.6.3
       shiki: 1.26.1
       tinyexec: 0.3.2
-      tsconfck: 3.1.4(typescript@5.7.2)
+      tsconfck: 3.1.4(typescript@5.7.3)
       ultrahtml: 1.5.3
       unist-util-visit: 5.0.0
       unstorage: 1.14.4
@@ -5530,7 +5530,7 @@ snapshots:
       yocto-spinner: 0.1.2
       zod: 3.24.1
       zod-to-json-schema: 3.24.1(zod@3.24.1)
-      zod-to-ts: 1.2.0(typescript@5.7.2)(zod@3.24.1)
+      zod-to-ts: 1.2.0(typescript@5.7.3)(zod@3.24.1)
     optionalDependencies:
       sharp: 0.33.5
     transitivePeerDependencies:
@@ -7460,12 +7460,12 @@ snapshots:
 
   trough@2.2.0: {}
 
-  ts-evaluator@1.2.0(typescript@5.7.2):
+  ts-evaluator@1.2.0(typescript@5.7.3):
     dependencies:
       ansi-colors: 4.1.3
       crosspath: 2.0.0
       object-path: 0.11.8
-      typescript: 5.7.2
+      typescript: 5.7.3
 
   ts-morph@24.0.0:
     dependencies:
@@ -7474,13 +7474,13 @@ snapshots:
 
   ts-pattern@5.0.8: {}
 
-  tsconfck@3.0.2(typescript@5.7.2):
+  tsconfck@3.0.2(typescript@5.7.3):
     optionalDependencies:
-      typescript: 5.7.2
+      typescript: 5.7.3
 
-  tsconfck@3.1.4(typescript@5.7.2):
+  tsconfck@3.1.4(typescript@5.7.3):
     optionalDependencies:
-      typescript: 5.7.2
+      typescript: 5.7.3
 
   tslib@2.6.3:
     optional: true
@@ -7497,7 +7497,7 @@ snapshots:
 
   typescript@5.6.2: {}
 
-  typescript@5.7.2: {}
+  typescript@5.7.3: {}
 
   ufo@1.5.4: {}
 
@@ -7813,9 +7813,9 @@ snapshots:
     dependencies:
       zod: 3.24.1
 
-  zod-to-ts@1.2.0(typescript@5.7.2)(zod@3.24.1):
+  zod-to-ts@1.2.0(typescript@5.7.3)(zod@3.24.1):
     dependencies:
-      typescript: 5.7.2
+      typescript: 5.7.3
       zod: 3.24.1
 
   zod@3.24.1: {}
