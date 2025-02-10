@@ -23,7 +23,7 @@
     "typescript": "^5.3.3"
   },
   "devDependencies": {
-    "@pandacss/dev": "0.52.0",
+    "@pandacss/dev": "0.53.0",
     "@park-ui/panda-preset": "0.43.1",
     "prettier": "3.5.0",
     "prettier-plugin-astro": "0.14.1"
