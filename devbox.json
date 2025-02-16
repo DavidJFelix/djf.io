@@ -1,6 +1,6 @@
 {
   "packages": [
-    "nodejs@latest",
+    "nodejs@23.7.0",
     "just@latest"
   ],
   "shell": {
