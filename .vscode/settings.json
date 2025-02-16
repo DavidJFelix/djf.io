@@ -1,37 +1,58 @@
 {
-	"cSpell.words": [
-		"Angelhack",
-		"architecting",
-		"astro",
-		"astrojs",
-		"Atumsoft",
-		"commenters",
-		"DALL-E",
-		"DEVBOX",
-		"doomer",
-		"gatekept",
-		"Grammarly",
-		"Hackathon",
-		"headshot",
-		"Instameals",
-		"iotv",
-		"pandacss",
-		"Pepperonio",
-		"struct",
-		"Swarmfarm",
-		"tsconfigs",
-		"VNDLY"
-	],
-	"grammarly.selectors": [
-		{
-			"language": "markdown",
-			"scheme": "file",
-			"pattern": "src/content/docs/blog/example.md"
-		},
-		{
-			"language": "mdx",
-			"scheme": "file"
-		}
-	],
-	"cSpell.enableFiletypes": ["astro", "just", "mdx", "nix"]
+  "cSpell.words": [
+    "Angelhack",
+    "architecting",
+    "astro",
+    "astrojs",
+    "Atumsoft",
+    "codegen",
+    "commenters",
+    "DALL-E",
+    "davidjfelix",
+    "DEVBOX",
+    "doomer",
+    "gatekept",
+    "Grammarly",
+    "Hackathon",
+    "headshot",
+    "Instameals",
+    "iotv",
+    "pandacss",
+    "Pepperonio",
+    "posthog",
+    "struct",
+    "Swarmfarm",
+    "tsconfigs",
+    "VNDLY"
+  ],
+  "[css]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "grammarly.selectors": [
+    {
+      "language": "markdown",
+      "scheme": "file",
+      "pattern": "src/content/docs/blog/example.md"
+    },
+    {
+      "language": "mdx",
+      "scheme": "file"
+    }
+  ],
+  "cSpell.enabledFiletypes": ["astro", "just", "mdx", "nix"]
 }
