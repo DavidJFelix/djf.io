@@ -23,3 +23,7 @@ pnpm-debug.log*
 ## Panda
 styled-system
 styled-system-studio
+
+# moon
+.moon/cache
+.moon/docker
