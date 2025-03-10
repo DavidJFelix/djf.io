@@ -32,7 +32,7 @@
       "@astrojs/mdx": "^4.0.0"
     }
   },
-  "packageManager": "pnpm@9.15.8",
+  "packageManager": "pnpm@9.15.9",
   "engines": {
     "node": "22.14.0"
   }
