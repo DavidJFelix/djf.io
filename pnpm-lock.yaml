@@ -13,7 +13,7 @@ importers:
     dependencies:
       '@ark-ui/react':
         specifier: ^4.0.0
-        version: 4.9.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        version: 4.9.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@astrojs/check':
         specifier: ^0.9.4
         version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.5.1)(typescript@5.8.2)
@@ -31,10 +31,10 @@ importers:
         version: 5.5.5(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.37.0)(typescript@5.8.2)(yaml@2.5.1)
       react:
         specifier: ^19.0.0
-        version: 19.0.0
+        version: 19.1.0
       react-dom:
         specifier: ^19.0.0
-        version: 19.0.0(react@19.0.0)
+        version: 19.1.0(react@19.1.0)
       sharp:
         specifier: ^0.33.0
         version: 0.33.5
@@ -2395,13 +2395,13 @@ packages:
   radix3@1.1.2:
     resolution: {integrity: sha512-b484I/7b8rDEdSDKckSSBA8knMpcdsXudlE/LNL639wFoHKwLbEkQFZHWEYwDC0wa0FKUcCY+GAF73Z7wxNVFA==}
 
-  react-dom@19.0.0:
-    resolution: {integrity: sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ==}
+  react-dom@19.1.0:
+    resolution: {integrity: sha512-Xs1hdnE+DyKgeHJeJznQmYMIBG3TKIHJJT95Q58nHLSrElKlGQqDTR2HQ9fx5CN/Gk6Vh/kupBTDLU11/nDk/g==}
     peerDependencies:
-      react: ^19.0.0
+      react: ^19.1.0
 
-  react@19.0.0:
-    resolution: {integrity: sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==}
+  react@19.1.0:
+    resolution: {integrity: sha512-FS+XFBNvn3GTAWq26joslQgWNoFu08F4kl0J4CgdNKADkdSGXQyTCnKteIAJy96Br6YbpEU1LSzV5dYtjMkMDg==}
     engines: {node: '>=0.10.0'}
 
   readdirp@4.0.2:
@@ -2532,8 +2532,8 @@ packages:
   sax@1.4.1:
     resolution: {integrity: sha512-+aWOz7yVScEGoKNd4PA10LZ8sk0A/z5+nXQG5giUO5rprX9jgYsTdov9qCchZiPIZezbZH+jRut8nPodFAX4Jg==}
 
-  scheduler@0.25.0:
-    resolution: {integrity: sha512-xFVuu11jh+xcO7JOAGJNOXld8/TcEHK/4CituBUeUb5hqxJLj9YuemAEuvm9gQ/+pgXYfbQuqAkiYu+u7YEsNA==}
+  scheduler@0.26.0:
+    resolution: {integrity: sha512-NlHwttCI/l5gCPR3D1nNXtWABUmBwvZpEQiD4IXSbIDq8BzLIK/7Ir5gTFSGZDUu37K5cMNp0hFtzO38sC7gWA==}
 
   semver@7.6.3:
     resolution: {integrity: sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==}
@@ -3110,7 +3110,7 @@ snapshots:
     transitivePeerDependencies:
       - '@internationalized/date'
 
-  '@ark-ui/react@4.9.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@ark-ui/react@4.9.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@internationalized/date': 3.7.0
       '@zag-js/accordion': 0.82.2
@@ -3147,7 +3147,7 @@ snapshots:
       '@zag-js/qr-code': 0.82.2
       '@zag-js/radio-group': 0.82.2
       '@zag-js/rating-group': 0.82.2
-      '@zag-js/react': 0.82.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@zag-js/react': 0.82.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@zag-js/select': 0.82.2
       '@zag-js/signature-pad': 0.82.2
       '@zag-js/slider': 0.82.2
@@ -3164,8 +3164,8 @@ snapshots:
       '@zag-js/tour': 0.82.2
       '@zag-js/tree-view': 0.82.2
       '@zag-js/types': 0.82.2
-      react: 19.0.0
-      react-dom: 19.0.0(react@19.0.0)
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
 
   '@astrojs/check@0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.5.1)(typescript@5.8.2)':
     dependencies:
@@ -4736,14 +4736,14 @@ snapshots:
       '@zag-js/types': 0.82.2
       '@zag-js/utils': 0.82.2
 
-  '@zag-js/react@0.82.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@zag-js/react@0.82.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@zag-js/core': 0.82.2
       '@zag-js/store': 0.82.2
       '@zag-js/types': 0.82.2
       proxy-compare: 3.0.1
-      react: 19.0.0
-      react-dom: 19.0.0(react@19.0.0)
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
 
   '@zag-js/rect-utils@0.62.1': {}
 
@@ -6623,12 +6623,12 @@ snapshots:
 
   radix3@1.1.2: {}
 
-  react-dom@19.0.0(react@19.0.0):
+  react-dom@19.1.0(react@19.1.0):
     dependencies:
-      react: 19.0.0
-      scheduler: 0.25.0
+      react: 19.1.0
+      scheduler: 0.26.0
 
-  react@19.0.0: {}
+  react@19.1.0: {}
 
   readdirp@4.0.2: {}
 
@@ -6859,7 +6859,7 @@ snapshots:
 
   sax@1.4.1: {}
 
-  scheduler@0.25.0: {}
+  scheduler@0.26.0: {}
 
   semver@7.6.3: {}
 
