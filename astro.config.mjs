@@ -6,10 +6,10 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'djf.io',
-      social: {
-        github: 'https://github.com/davidjfelix',
-        twitter: 'https://twitter.com/davidjfelix',
-      },
+      social: [
+        { icon: 'github', label: 'GitHub', href: 'https://github.com/davidjfelix' },
+        { icon: 'twitter', label: 'Twitter', href: 'https://twitter.com/davidjfelix' },
+      ],
       head: [
         {
           tag: 'script',
