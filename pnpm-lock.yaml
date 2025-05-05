@@ -13,7 +13,7 @@ importers:
     dependencies:
       '@ark-ui/react':
         specifier: ^5.0.0
-        version: 5.8.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        version: 5.9.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       '@astrojs/check':
         specifier: ^0.9.4
         version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.5.1)(typescript@5.8.3)
@@ -57,8 +57,8 @@ packages:
   '@ark-ui/anatomy@3.5.0':
     resolution: {integrity: sha512-KoROLVVT23BvFHcye/GYhG8NJ2CH0C+CaoJhXrkEjvk8pbEx80Xk5NIUy5gL7xmX+LDD7kY5t3NotBqCu+2L2w==}
 
-  '@ark-ui/react@5.8.0':
-    resolution: {integrity: sha512-5KrB7YqJ1YXz5DNmu5LWoWp1JeqC/SPdXMRekvOopDdKqWARsfdSV+mZuTHq2UY5bCSv8GYZJEBhbQyk265Yxw==}
+  '@ark-ui/react@5.9.0':
+    resolution: {integrity: sha512-aWOv6aCbcPkUUBIqPGDh3mp0qghYRvcR10HToxIFD583UIi16E36fwsZOIIh/yZW3ka/pAWlgBxpyFC9GzdarQ==}
     peerDependencies:
       react: '>=18.0.0'
       react-dom: '>=18.0.0'
@@ -408,6 +408,9 @@ packages:
 
   '@floating-ui/core@1.6.9':
     resolution: {integrity: sha512-uMXCuQ3BItDUbAMhIXw7UPXRfAlOAvZzdK9BWpE60MCn+Svt3aLn9jsPTi/WNGlRUu2uI0v5S7JiIUsbsvh3fw==}
+
+  '@floating-ui/core@1.7.0':
+    resolution: {integrity: sha512-FRdBLykrPPA6P76GGGqlex/e7fbe0F1ykgxHYNXQsH/iTEtjMj/f9bpY5oQqbjt5VgZvgz/uKXbGuROijh3VLA==}
 
   '@floating-ui/dom@1.6.13':
     resolution: {integrity: sha512-umqzocjDgNRGTuO7Q8CU32dkHkECqI8ZdMZ5Swb6QAM0t5rnlrN3lGo1hdpscRd3WS8T6DKYK4ephgIH9iRh3w==}
@@ -3272,7 +3275,7 @@ snapshots:
     transitivePeerDependencies:
       - '@internationalized/date'
 
-  '@ark-ui/react@5.8.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@ark-ui/react@5.9.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@internationalized/date': 3.8.0
       '@zag-js/accordion': 1.12.0
@@ -3700,9 +3703,13 @@ snapshots:
     dependencies:
       '@floating-ui/utils': 0.2.9
 
+  '@floating-ui/core@1.7.0':
+    dependencies:
+      '@floating-ui/utils': 0.2.9
+
   '@floating-ui/dom@1.6.13':
     dependencies:
-      '@floating-ui/core': 1.6.9
+      '@floating-ui/core': 1.7.0
       '@floating-ui/utils': 0.2.9
 
   '@floating-ui/dom@1.6.8':
