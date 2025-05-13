@@ -19,7 +19,7 @@ importers:
         version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.5.1)(typescript@5.8.3)
       '@astrojs/starlight':
         specifier: ^0.34.0
-        version: 0.34.3(astro@5.7.12(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.5.1))
+        version: 0.34.3(astro@5.7.13(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.5.1))
       '@types/react':
         specifier: ^19.0.0
         version: 19.1.4
@@ -28,7 +28,7 @@ importers:
         version: 19.1.5(@types/react@19.1.4)
       astro:
         specifier: ^5.0.4
-        version: 5.7.12(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.5.1)
+        version: 5.7.13(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.5.1)
       react:
         specifier: ^19.0.0
         version: 19.1.0
@@ -1439,8 +1439,8 @@ packages:
     peerDependencies:
       astro: ^4.0.0-beta || ^5.0.0-beta || ^3.3.0
 
-  astro@5.7.12:
-    resolution: {integrity: sha512-UQOItiZz2hcv9PlHTQ6dNqFDIVNPnmwk6eyAjJqPE9O8EDHZK2JKtTRD0CBFN2Uqr0RE0TWP2gqDpLfsa5dJEA==}
+  astro@5.7.13:
+    resolution: {integrity: sha512-cRGq2llKOhV3XMcYwQpfBIUcssN6HEK5CRbcMxAfd9OcFhvWE7KUy50zLioAZVVl3AqgUTJoNTlmZfD2eG0G1w==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -1627,8 +1627,8 @@ packages:
   csstype@3.1.3:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==}
 
-  debug@4.4.0:
-    resolution: {integrity: sha512-6WTZ/IxCY/T6BALoZHaE4ctp9xm+Z5kY/pzYaCHRFeyVhojxlrm+46y68HA6hr0TcwEssoxNiDEUJQjfPZ/RYA==}
+  debug@4.4.1:
+    resolution: {integrity: sha512-KcKCqiftBJcZr++7ykoDIEwSa3XWowTfNPo92BYxjXiyYEVrUQh2aLyhxBCwww+heortUFxEJYcRzosstTEBYQ==}
     engines: {node: '>=6.0'}
     peerDependencies:
       supports-color: '*'
@@ -1920,8 +1920,8 @@ packages:
   html-whitespace-sensitive-tag-names@3.0.1:
     resolution: {integrity: sha512-q+310vW8zmymYHALr1da4HyXUQ0zgiIwIicEfotYPWGN0OJVEN/58IJ3A4GBYcEq3LGAZqKb+ugvP0GNB9CEAA==}
 
-  http-cache-semantics@4.1.1:
-    resolution: {integrity: sha512-er295DKPVsV82j5kw1Gjt+ADA/XYHsajl82cGNQG2eyoPkvgUhX+nDIyelzhIWbbsXP39EHcI6l5tYs2FYqYXQ==}
+  http-cache-semantics@4.2.0:
+    resolution: {integrity: sha512-dTxcvPXqPvXBQpq5dUr6mEMJX4oIEFv6bwom3FDwKRDsuIjjJGANqhBuoAn9c1RQJIdAKav33ED65E2ys+87QQ==}
 
   i18next@23.16.8:
     resolution: {integrity: sha512-06r/TitrM88Mg5FdUXAKL96dJMzgqLE5dv3ryBAra4KCwD9mJ4ndOTS95ZuymIGoE+2hzfdaMak2X11/es7ZWg==}
@@ -2693,6 +2693,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  semver@7.7.2:
+    resolution: {integrity: sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   sharp@0.33.5:
     resolution: {integrity: sha512-haPVm1EkS9pgvHrQ/F3Xy+hgcuMV0Wm9vfIBSiwZ05k+xgb0PkBQpGsAA/oWdDobNaZTH5ppvHtzCFbnSEwHVw==}
     engines: {node: ^18.17.0 || ^20.3.0 || >=21.0.0}
@@ -3413,12 +3418,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.2.6(astro@5.7.12(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.5.1))':
+  '@astrojs/mdx@4.2.6(astro@5.7.13(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.5.1))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.1
       '@mdx-js/mdx': 3.1.0(acorn@8.14.1)
       acorn: 8.14.1
-      astro: 5.7.12(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.5.1)
+      astro: 5.7.13(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.5.1)
       es-module-lexer: 1.7.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
@@ -3442,17 +3447,17 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.24.4
 
-  '@astrojs/starlight@0.34.3(astro@5.7.12(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.5.1))':
+  '@astrojs/starlight@0.34.3(astro@5.7.13(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.5.1))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.1
-      '@astrojs/mdx': 4.2.6(astro@5.7.12(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.5.1))
+      '@astrojs/mdx': 4.2.6(astro@5.7.13(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.5.1))
       '@astrojs/sitemap': 3.3.1
       '@pagefind/default-ui': 1.3.0
       '@types/hast': 3.0.4
       '@types/js-yaml': 4.0.9
       '@types/mdast': 4.0.4
-      astro: 5.7.12(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.5.1)
-      astro-expressive-code: 0.41.2(astro@5.7.12(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.5.1))
+      astro: 5.7.13(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.5.1)
+      astro-expressive-code: 0.41.2(astro@5.7.13(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.5.1))
       bcp-47: 2.1.0
       hast-util-from-html: 2.0.3
       hast-util-select: 6.0.4
@@ -3478,7 +3483,7 @@ snapshots:
   '@astrojs/telemetry@3.2.1':
     dependencies:
       ci-info: 4.2.0
-      debug: 4.4.0
+      debug: 4.4.1
       dlv: 1.1.3
       dset: 3.1.4
       is-docker: 3.0.0
@@ -5381,12 +5386,12 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-expressive-code@0.41.2(astro@5.7.12(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.5.1)):
+  astro-expressive-code@0.41.2(astro@5.7.13(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.5.1)):
     dependencies:
-      astro: 5.7.12(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.5.1)
+      astro: 5.7.13(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.5.1)
       rehype-expressive-code: 0.41.2
 
-  astro@5.7.12(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.5.1):
+  astro@5.7.13(@types/node@22.15.17)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.40.2)(typescript@5.8.3)(yaml@2.5.1):
     dependencies:
       '@astrojs/compiler': 2.12.0
       '@astrojs/internal-helpers': 0.6.1
@@ -5404,7 +5409,7 @@ snapshots:
       common-ancestor-path: 1.0.1
       cookie: 1.0.2
       cssesc: 3.0.0
-      debug: 4.4.0
+      debug: 4.4.1
       deterministic-object-hash: 2.0.2
       devalue: 5.1.1
       diff: 5.2.0
@@ -5417,7 +5422,7 @@ snapshots:
       fontace: 0.3.0
       github-slugger: 2.0.0
       html-escaper: 3.0.3
-      http-cache-semantics: 4.1.1
+      http-cache-semantics: 4.2.0
       js-yaml: 4.1.0
       kleur: 4.1.5
       magic-string: 0.30.17
@@ -5430,7 +5435,7 @@ snapshots:
       picomatch: 4.0.2
       prompts: 2.4.2
       rehype: 13.0.2
-      semver: 7.7.1
+      semver: 7.7.2
       shiki: 3.4.0
       tinyexec: 0.3.2
       tinyglobby: 0.2.13
@@ -5655,7 +5660,7 @@ snapshots:
 
   csstype@3.1.3: {}
 
-  debug@4.4.0:
+  debug@4.4.1:
     dependencies:
       ms: 2.1.3
 
@@ -6096,7 +6101,7 @@ snapshots:
 
   html-whitespace-sensitive-tag-names@3.0.1: {}
 
-  http-cache-semantics@4.1.1: {}
+  http-cache-semantics@4.2.0: {}
 
   i18next@23.16.8:
     dependencies:
@@ -6691,7 +6696,7 @@ snapshots:
   micromark@4.0.2:
     dependencies:
       '@types/debug': 4.1.12
-      debug: 4.4.0
+      debug: 4.4.1
       decode-named-character-reference: 1.1.0
       devlop: 1.1.0
       micromark-core-commonmark: 2.0.3
@@ -7185,11 +7190,13 @@ snapshots:
 
   semver@7.7.1: {}
 
+  semver@7.7.2: {}
+
   sharp@0.33.5:
     dependencies:
       color: 4.2.3
       detect-libc: 2.0.4
-      semver: 7.7.1
+      semver: 7.7.2
     optionalDependencies:
       '@img/sharp-darwin-arm64': 0.33.5
       '@img/sharp-darwin-x64': 0.33.5
@@ -7381,7 +7388,7 @@ snapshots:
 
   typescript-auto-import-cache@0.3.3:
     dependencies:
-      semver: 7.7.1
+      semver: 7.7.2
 
   typescript@5.6.2: {}
 
@@ -7570,7 +7577,7 @@ snapshots:
   volar-service-typescript@0.0.61(@volar/language-service@2.4.5):
     dependencies:
       path-browserify: 1.0.1
-      semver: 7.7.1
+      semver: 7.7.2
       typescript-auto-import-cache: 0.3.3
       vscode-languageserver-textdocument: 1.0.12
       vscode-nls: 5.2.0
