@@ -39,7 +39,7 @@ Overtraining can mean pulling a muscle or getting too sore to run, which impacts
 On the other hand, if you don't push these goals, you'll have a hard time progressing - you can't run longer, further, or faster if you don't run some combination of longer, further, or faster [^3].
 If you take a break from running (say, seasonally) or rest after an injury, you might notice a significant step backwards while you get back in the groove.
 Finding your pace means maintaining your fitness and staying disciplined to a schedule as much as it does not overtraining - it's a balance between commitment and setting achievable goals.
-For undertrainers, often, the most challenging part about running is just going outside and running every day you say you will[^4].
+For under-trainers, often, the most challenging part about running is just going outside and running every day you say you will[^4].
 Regularity helps build your ability, and helps you find a "macro-pace" for your training schedule.
 I think this this is actually more important to overall running success than your mile time or how far you can run on a single day.
 My mantra for finding my pace is, "the day serves the week, the week serves the month, the month serves the year," to remind myself that you can't have a good week without good days but also one good day that you overexert might harm your week.
@@ -57,7 +57,7 @@ In a lot of ways, progression in running is very similar to weight lifting.
 Early on, you'll be surprised at how quickly you progress, but there are some challenges that just prove incredibly difficult[^5].
 With a good program, you can add distance to your runs pretty quickly, with marathon training programs taking your weekly long run from 6 miles to 20 miles in 18 weeks.
 That's almost a mile per week progression for distance.
-It's a palpable change that feels extremely rewarding and helps encourage contining discipline to complete the program.
+It's a palpable change that feels extremely rewarding and helps encourage continuing discipline to complete the program.
 
 The pace of progression always astounds me coming from weight lifting, where it feels like progress is slower.
 Maybe it's an easy-to-follow program or just the way you count mileage that allows you to account for the change.
@@ -68,7 +68,7 @@ Regardless, I can see and feel the benefit of my effort, which I have applied co
 For me, this feels extremely rewarding, even if it takes a long timeline to see.
 
 I have no allusions that progression will continue without increased effort, but I know that I still have a lot of room to challenge myself and stretch my abilities without becoming a professional runner.
-I've recently started training in hot weather and working on improving my heart-rate and that training has felt completely new compared to previous training, with noticable progression through the continuous application of time and effort.
+I've recently started training in hot weather and working on improving my heart-rate and that training has felt completely new compared to previous training, with noticeable progression through the continuous application of time and effort.
 
 ## Comparison - the Thief of Joy
 
@@ -86,15 +86,15 @@ It's often said that comparison is the thief of joy, and through running, I've f
 But more importantly, I've begun to find empathy for the effort of others.
 It's become easier to consider how impressive someone running several marathons a year or a sub-3-hour (or even sub-4-hour) marathon time is once you've put in the work to run one yourself.
 I always felt like this was impressive, but I don't think I ever appreciated just how impressive it was.
-I think that envying accomplishment can strip you of your own joy, but to compare is human and appreicating life's tradeoffs can help contextualize the effort.
+I think that envying accomplishment can strip you of your own joy, but to compare is human and appreciating life's tradeoffs can help contextualize the effort.
 Some of the fastest runners that I see daily are often out there regardless of if I start at 6 or 7am -- are they running an hour more than me every morning?
 Once you see what it takes to get to each level, you have to either trade your time and other aspects of your life to get better or you find solace that this isn't a trade you're willing to make.
-Zen is when you've found your pace and you accept and appreicate a faster pace that's within your reach but not your ultimate desire.
+Zen is when you've found your pace and you accept and appreciate a faster pace that's within your reach but not your ultimate desire.
 You might do something that appears similar to olympic runners but your goals aren't the same.
-If you want to be in shape and excercise daily, or go outside before working at a desk each day, those things don't require you to become an olympian.
+If you want to be in shape and exercise daily, or go outside before working at a desk each day, those things don't require you to become an olympian.
 
 To others, who run slower than you, your achievement may seem incredible.
-To the people who won't wake up at 5am and won't run in the morning, even an exhausted, complainy, half-assed run might seem disciplined.
+To the people who won't wake up at 5am and won't run in the morning, even an exhausted, complaint-ridden, half-assed run might seem disciplined.
 It's all relative, and when you compare upward you don't give yourself the credit you've earned.
 Zen is remembering the people you pass when you look forward at the people who pass you.
 
@@ -106,7 +106,7 @@ They don't care if I'm late to my run, if I cut my run short, if I swap runs bet
 Nobody ever notices, because nobody gives a shit.
 I sometimes notice when regulars have been gone for awhile or when regulars are running with a new partner, but rarely assume that they've had a lapse in character or skill because of my observations.
 
-Throughout my adolescense and early adulthood, I periodically felt observed or watched in what I did and felt either shameful or embarassed about it.
+Throughout my adolescence and early adulthood, I periodically felt observed or watched in what I did and felt either shameful or embarrassed about it.
 Running has been one of the most intense sessions of exposure therapy I've ever experienced, and has helped me adopt a superpower of shamelessness.
 I felt like when I weight lifted, a big hurdle was putting aside my ego and recognizing that nobody is at the gym to watch me fuck up or fail.
 The people who notice only give a shit briefly and it that superficiality doesn't stay with you.
@@ -134,14 +134,14 @@ It's not complicated, I just don't want to do it.
 
 I frequently don't want to run and try to make excuses not to run.
 I often have an aversion to getting up early and feel exhausted from the day prior.
-There's no way to slice it or make it more paletable, I just need to do it.
+There's no way to slice it or make it more palatable, I just need to do it.
 Sometimes you just have to eat the shit.
 
 Some call this "grit" or "discipline" but I think it's more than that.
 It's not about sticking to the schedule or doing something I like regularly.
 It's about doing it even when I don't like it.
 While I often find running difficult and painful and to be the antithesis of what I desire, I know that doing it is the only path to my goals.
-Like the exposure therapy I mentione before, I find that my occasional disdain for the activity itself has been a huge benefit to my own growth and willingness to stick with something.
+Like the exposure therapy I mentioned before, I find that my occasional disdain for the activity itself has been a huge benefit to my own growth and willingness to stick with something.
 
 
 ## "Foot"notes:
