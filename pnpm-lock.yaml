@@ -19,7 +19,7 @@ importers:
         version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.5.1)(typescript@5.8.3)
       '@astrojs/starlight':
         specifier: ^0.35.0
-        version: 0.35.1(astro@5.12.2(@types/node@24.1.0)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.45.1)(typescript@5.8.3)(yaml@2.5.1))
+        version: 0.35.1(astro@5.12.3(@types/node@24.1.0)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.45.1)(typescript@5.8.3)(yaml@2.5.1))
       '@types/react':
         specifier: ^19.0.0
         version: 19.1.8
@@ -28,7 +28,7 @@ importers:
         version: 19.1.6(@types/react@19.1.8)
       astro:
         specifier: ^5.0.4
-        version: 5.12.2(@types/node@24.1.0)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.45.1)(typescript@5.8.3)(yaml@2.5.1)
+        version: 5.12.3(@types/node@24.1.0)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.45.1)(typescript@5.8.3)(yaml@2.5.1)
       react:
         specifier: ^19.0.0
         version: 19.1.0
@@ -50,7 +50,7 @@ importers:
         version: 0.54.0(typescript@5.8.3)
       '@park-ui/panda-preset':
         specifier: 0.43.1
-        version: 0.43.1(@internationalized/date@3.5.5)(@pandacss/dev@0.54.0(typescript@5.8.3))
+        version: 0.43.1(@internationalized/date@3.8.2)(@pandacss/dev@0.54.0(typescript@5.8.3))
 
 packages:
 
@@ -1470,8 +1470,8 @@ packages:
     peerDependencies:
       astro: ^4.0.0-beta || ^5.0.0-beta || ^3.3.0
 
-  astro@5.12.2:
-    resolution: {integrity: sha512-/qTPSD8bSxjsh5KNXvOsf6Md7dqNuH3WSx6KLa1YbxPR2JZDgPWEKEyulS3/9L5h5aP0SkjONrqwOGdgWw97fg==}
+  astro@5.12.3:
+    resolution: {integrity: sha512-fU1hNPMkccm+FuonGsY5DFkC2QyuLCju++8L2ubzBtYBDBf6bmfgmVM7A2dK+Hl+ZJCUNgepsClhBpczj+2LRw==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -3268,7 +3268,7 @@ packages:
 
 snapshots:
 
-  '@ark-ui/anatomy@3.5.0(@internationalized/date@3.5.5)':
+  '@ark-ui/anatomy@3.5.0(@internationalized/date@3.8.2)':
     dependencies:
       '@zag-js/accordion': 0.62.1
       '@zag-js/anatomy': 0.62.1
@@ -3281,7 +3281,7 @@ snapshots:
       '@zag-js/color-utils': 0.62.1
       '@zag-js/combobox': 0.62.1
       '@zag-js/date-picker': 0.62.1
-      '@zag-js/date-utils': 0.62.1(@internationalized/date@3.5.5)
+      '@zag-js/date-utils': 0.62.1(@internationalized/date@3.8.2)
       '@zag-js/dialog': 0.62.1
       '@zag-js/editable': 0.62.1
       '@zag-js/file-upload': 0.62.1
@@ -3442,12 +3442,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.3.1(astro@5.12.2(@types/node@24.1.0)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.45.1)(typescript@5.8.3)(yaml@2.5.1))':
+  '@astrojs/mdx@4.3.1(astro@5.12.3(@types/node@24.1.0)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.45.1)(typescript@5.8.3)(yaml@2.5.1))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.3
       '@mdx-js/mdx': 3.1.0(acorn@8.15.0)
       acorn: 8.15.0
-      astro: 5.12.2(@types/node@24.1.0)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.45.1)(typescript@5.8.3)(yaml@2.5.1)
+      astro: 5.12.3(@types/node@24.1.0)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.45.1)(typescript@5.8.3)(yaml@2.5.1)
       es-module-lexer: 1.7.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
@@ -3471,17 +3471,17 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.25.76
 
-  '@astrojs/starlight@0.35.1(astro@5.12.2(@types/node@24.1.0)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.45.1)(typescript@5.8.3)(yaml@2.5.1))':
+  '@astrojs/starlight@0.35.1(astro@5.12.3(@types/node@24.1.0)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.45.1)(typescript@5.8.3)(yaml@2.5.1))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.3
-      '@astrojs/mdx': 4.3.1(astro@5.12.2(@types/node@24.1.0)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.45.1)(typescript@5.8.3)(yaml@2.5.1))
+      '@astrojs/mdx': 4.3.1(astro@5.12.3(@types/node@24.1.0)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.45.1)(typescript@5.8.3)(yaml@2.5.1))
       '@astrojs/sitemap': 3.4.1
       '@pagefind/default-ui': 1.3.0
       '@types/hast': 3.0.4
       '@types/js-yaml': 4.0.9
       '@types/mdast': 4.0.4
-      astro: 5.12.2(@types/node@24.1.0)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.45.1)(typescript@5.8.3)(yaml@2.5.1)
-      astro-expressive-code: 0.41.3(astro@5.12.2(@types/node@24.1.0)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.45.1)(typescript@5.8.3)(yaml@2.5.1))
+      astro: 5.12.3(@types/node@24.1.0)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.45.1)(typescript@5.8.3)(yaml@2.5.1)
+      astro-expressive-code: 0.41.3(astro@5.12.3(@types/node@24.1.0)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.45.1)(typescript@5.8.3)(yaml@2.5.1))
       bcp-47: 2.1.0
       hast-util-from-html: 2.0.3
       hast-util-select: 6.0.4
@@ -4170,9 +4170,9 @@ snapshots:
 
   '@pandacss/types@0.54.0': {}
 
-  '@park-ui/panda-preset@0.43.1(@internationalized/date@3.5.5)(@pandacss/dev@0.54.0(typescript@5.8.3))':
+  '@park-ui/panda-preset@0.43.1(@internationalized/date@3.8.2)(@pandacss/dev@0.54.0(typescript@5.8.3))':
     dependencies:
-      '@ark-ui/anatomy': 3.5.0(@internationalized/date@3.5.5)
+      '@ark-ui/anatomy': 3.5.0(@internationalized/date@3.8.2)
       '@pandacss/dev': 0.54.0(typescript@5.8.3)
       effect: 3.10.15
     transitivePeerDependencies:
@@ -4663,6 +4663,10 @@ snapshots:
   '@zag-js/date-utils@0.62.1(@internationalized/date@3.5.5)':
     dependencies:
       '@internationalized/date': 3.5.5
+
+  '@zag-js/date-utils@0.62.1(@internationalized/date@3.8.2)':
+    dependencies:
+      '@internationalized/date': 3.8.2
 
   '@zag-js/date-utils@1.20.1(@internationalized/date@3.8.2)':
     dependencies:
@@ -5431,12 +5435,12 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-expressive-code@0.41.3(astro@5.12.2(@types/node@24.1.0)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.45.1)(typescript@5.8.3)(yaml@2.5.1)):
+  astro-expressive-code@0.41.3(astro@5.12.3(@types/node@24.1.0)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.45.1)(typescript@5.8.3)(yaml@2.5.1)):
     dependencies:
-      astro: 5.12.2(@types/node@24.1.0)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.45.1)(typescript@5.8.3)(yaml@2.5.1)
+      astro: 5.12.3(@types/node@24.1.0)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.45.1)(typescript@5.8.3)(yaml@2.5.1)
       rehype-expressive-code: 0.41.3
 
-  astro@5.12.2(@types/node@24.1.0)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.45.1)(typescript@5.8.3)(yaml@2.5.1):
+  astro@5.12.3(@types/node@24.1.0)(jiti@2.4.2)(lightningcss@1.25.1)(rollup@4.45.1)(typescript@5.8.3)(yaml@2.5.1):
     dependencies:
       '@astrojs/compiler': 2.12.2
       '@astrojs/internal-helpers': 0.6.1
