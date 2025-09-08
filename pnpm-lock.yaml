@@ -13,7 +13,7 @@ importers:
     dependencies:
       '@ark-ui/react':
         specifier: ^5.0.0
-        version: 5.22.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 5.23.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@astrojs/check':
         specifier: ^0.9.4
         version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.5.1)(typescript@5.9.2)
@@ -50,7 +50,7 @@ importers:
         version: 0.54.0(typescript@5.9.2)
       '@park-ui/panda-preset':
         specifier: 0.43.1
-        version: 0.43.1(@internationalized/date@3.8.2)(@pandacss/dev@0.54.0(typescript@5.9.2))
+        version: 0.43.1(@internationalized/date@3.5.5)(@pandacss/dev@0.54.0(typescript@5.9.2))
 
 packages:
 
@@ -58,8 +58,8 @@ packages:
     resolution: {integrity: sha512-KoROLVVT23BvFHcye/GYhG8NJ2CH0C+CaoJhXrkEjvk8pbEx80Xk5NIUy5gL7xmX+LDD7kY5t3NotBqCu+2L2w==}
     deprecated: This package is deprecated. Please import directly from @ark-ui/<framework>
 
-  '@ark-ui/react@5.22.0':
-    resolution: {integrity: sha512-cH3xVhKRn0ZsP2Jg2RZAziI38obIfTMC3Q6ZWtWeYL5k9fq6K8sa1XjdJclBRSD0vYYvR1ynHG9ThicWKKANtQ==}
+  '@ark-ui/react@5.23.0':
+    resolution: {integrity: sha512-DgABgbCEl7inAzXmWPIbuV3jbTDkbqqr0K9/l2LdWoD1otFYSY/BGl55UZXKZnFOH/VykJYLmSYfiAUhFFlbCw==}
     peerDependencies:
       react: '>=18.0.0'
       react-dom: '>=18.0.0'
@@ -3294,7 +3294,7 @@ packages:
 
 snapshots:
 
-  '@ark-ui/anatomy@3.5.0(@internationalized/date@3.8.2)':
+  '@ark-ui/anatomy@3.5.0(@internationalized/date@3.5.5)':
     dependencies:
       '@zag-js/accordion': 0.62.1
       '@zag-js/anatomy': 0.62.1
@@ -3307,7 +3307,7 @@ snapshots:
       '@zag-js/color-utils': 0.62.1
       '@zag-js/combobox': 0.62.1
       '@zag-js/date-picker': 0.62.1
-      '@zag-js/date-utils': 0.62.1(@internationalized/date@3.8.2)
+      '@zag-js/date-utils': 0.62.1(@internationalized/date@3.5.5)
       '@zag-js/dialog': 0.62.1
       '@zag-js/editable': 0.62.1
       '@zag-js/file-upload': 0.62.1
@@ -3337,7 +3337,7 @@ snapshots:
     transitivePeerDependencies:
       - '@internationalized/date'
 
-  '@ark-ui/react@5.22.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
+  '@ark-ui/react@5.23.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       '@internationalized/date': 3.8.2
       '@zag-js/accordion': 1.22.1
@@ -4226,9 +4226,9 @@ snapshots:
 
   '@pandacss/types@0.54.0': {}
 
-  '@park-ui/panda-preset@0.43.1(@internationalized/date@3.8.2)(@pandacss/dev@0.54.0(typescript@5.9.2))':
+  '@park-ui/panda-preset@0.43.1(@internationalized/date@3.5.5)(@pandacss/dev@0.54.0(typescript@5.9.2))':
     dependencies:
-      '@ark-ui/anatomy': 3.5.0(@internationalized/date@3.8.2)
+      '@ark-ui/anatomy': 3.5.0(@internationalized/date@3.5.5)
       '@pandacss/dev': 0.54.0(typescript@5.9.2)
       effect: 3.10.15
     transitivePeerDependencies:
@@ -4727,10 +4727,6 @@ snapshots:
   '@zag-js/date-utils@0.62.1(@internationalized/date@3.5.5)':
     dependencies:
       '@internationalized/date': 3.5.5
-
-  '@zag-js/date-utils@0.62.1(@internationalized/date@3.8.2)':
-    dependencies:
-      '@internationalized/date': 3.8.2
 
   '@zag-js/date-utils@1.22.1(@internationalized/date@3.8.2)':
     dependencies:
