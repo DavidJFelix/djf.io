@@ -25,7 +25,7 @@
   "devDependencies": {
     "@pandacss/dev": "0.54.0",
     "@park-ui/panda-preset": "0.43.1",
-    "@biomejs/biome": "2.3.0"
+    "@biomejs/biome": "2.3.1"
   },
   "pnpm": {
     "overrides": {
