@@ -2,7 +2,7 @@
 title: On Running
 author: DavidJFelix
 description: The best, worst thing for you
-date: 2025-2-04
+date: 2025-12-07
 tags:
   - vibes
   - exercise
@@ -24,7 +24,7 @@ hero:
 I've been running about four to five times a week these days and I think it's safe to say that it's part of my routine.
 My wife and I have made a deliberate effort to make this fitness activity part of our morning routine over the past few years.
 Up until recently, I had only run periodically -— track in grade school (200m, 400m), on the tread mill at the gym, or an occasional charity 5k -- but nothing serious.
-Last year, I finished my first marathon[^1] and I feel comfortable calling myself a "runner"[^2].
+Last year, I finished my first marathon, this year I ran my second marathon without walking[^1], and I feel comfortable calling myself a "runner"[^2].
 In this process of becoming a "runner" I've talked to a lot of people who run about how it appeals to them, and I've been reflecting on and why I personally like running.
 
 ## Finding your pace
@@ -145,7 +145,7 @@ Like the exposure therapy I mentioned before, I find that my occasional disdain 
 
 
 ## "Foot"notes:
-[^1]: My time wasn't great, but I ran almost all of it and ran the last few miles.
+[^1]: My first marathon was the Flying Pig in Cincinnati. It's a notoriously hilly course, it was unseasonably warm and my time wasn't great (5:30+), but I ran almost all of it, with bursts of walking when I felt like I might pass out from the heat, but I proudly ran the last few miles. My second marathon was the Nationwide Marathon in Columbus, I was  aiming for a <5h time and managed to run a 4:53 in a torrential downpour. At least it wasn't hot!
 [^2]: I feel like this and many labels have their own expectations and even running several times a week I didn't consider myself a "runner".
 [^3]: Training programs often integrate a mix of speed and distance work to improve your time on distance runs. I used to believe this was to break up the monotony and give room for rest, but I now know there's a bit more to this.
 [^4]: I confess, this is me.
