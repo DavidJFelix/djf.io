@@ -1,30 +1,32 @@
 {
-  "cSpell.words": [
-    "Angelhack",
-    "architecting",
-    "astro",
-    "astrojs",
-    "Atumsoft",
-    "codegen",
-    "commenters",
-    "DALL-E",
+	"cSpell.words": [
+		"Angelhack",
+		"architecting",
+		"astro",
+		"astrojs",
+		"Atumsoft",
+		"commenters",
+		"DALL-E",
+		"DEVBOX",
     "davidjfelix",
-    "DEVBOX",
-    "doomer",
-    "gatekept",
-    "Grammarly",
-    "Hackathon",
-    "headshot",
-    "Instameals",
-    "iotv",
-    "pandacss",
-    "Pepperonio",
+		"doomer",
+		"gatekept",
+		"Grammarly",
+		"Hackathon",
+		"half-assed",
+		"headshot",
+		"Instameals",
+		"iotv",
+		"pandacss",
+		"Pepperonio",
     "posthog",
-    "struct",
-    "Swarmfarm",
-    "tsconfigs",
-    "VNDLY"
-  ],
+		"Strava",
+		"struct",
+		"Swarmfarm",
+		"tsconfigs",
+		"VNDLY"
+	],
+	"cSpell.enableFiletypes": ["astro", "just", "mdx", "nix"]
   "[css]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
@@ -42,17 +44,5 @@
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "biomejs.biome"
-  },
-  "grammarly.selectors": [
-    {
-      "language": "markdown",
-      "scheme": "file",
-      "pattern": "src/content/docs/blog/example.md"
-    },
-    {
-      "language": "mdx",
-      "scheme": "file"
-    }
-  ],
-  "cSpell.enabledFiletypes": ["astro", "just", "mdx", "nix"]
+  }
 }
