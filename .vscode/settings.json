@@ -8,6 +8,7 @@
 		"commenters",
 		"DALL-E",
 		"DEVBOX",
+    "davidjfelix",
 		"doomer",
 		"gatekept",
 		"Grammarly",
@@ -18,22 +19,30 @@
 		"iotv",
 		"pandacss",
 		"Pepperonio",
+    "posthog",
 		"Strava",
 		"struct",
 		"Swarmfarm",
 		"tsconfigs",
 		"VNDLY"
 	],
-	"grammarly.selectors": [
-		{
-			"language": "markdown",
-			"scheme": "file",
-			"pattern": "src/content/docs/blog/example.md"
-		},
-		{
-			"language": "mdx",
-			"scheme": "file"
-		}
-	],
 	"cSpell.enableFiletypes": ["astro", "just", "mdx", "nix"]
+  "[css]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  }
 }
